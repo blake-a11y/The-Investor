@@ -2,26 +2,24 @@
 
 Research workflow combining Grok analysis, Monte Carlo simulations, and Claude audit to produce a validated investment report.
 
+**→ Full diagram:** [REPO_DIAGRAM.md](REPO_DIAGRAM.md) | **→ Cursor orchestration:** [CURSOR_ORCHESTRATION.md](CURSOR_ORCHESTRATION.md)
+
 ## Structure
 
 ```
 geopolitical-investment-research-2026/
 ├── prompts/              # Instructions for Grok and Claude
-│   ├── master_instructions.md
-│   ├── grok_prompt_v1.md
-│   └── claude_audit_prompt.md
-├── data/                 # Input data
-│   ├── sector_historical_data.csv
-│   └── latest_prices_feb28_2026.csv
-├── code/                 # Simulation and analysis
+├── data/                  # Input data
+├── code/                  # Simulation and analysis
 │   ├── monte_carlo_simulator.py
-│   └── run_simulations.sh
-├── reports/              # Outputs
-│   ├── draft_grok_v1.md
-│   ├── audit_claude.md
-│   └── final_validated_report.md   ← Target output
+│   ├── run_simulations.sh    # Unix
+│   ├── run_mc.ps1            # Windows one-click
+│   ├── commit_audit_round.ps1
+│   └── export_to_pdf.ps1
+├── reports/               # Outputs (incl. final_validated_report.md)
 ├── audits/
-│   └── feedback_round1/
+├── REPO_DIAGRAM.md        # Workflow diagram
+├── CURSOR_ORCHESTRATION.md # Step-by-step Cursor guide
 └── requirements.txt
 ```
 
@@ -45,11 +43,23 @@ pip install -r requirements.txt
 cd code && bash run_simulations.sh
 ```
 
-**Windows PowerShell:**
+**Windows one-click:**
 ```powershell
-cd code
-python monte_carlo_simulator.py --data ..\data\sector_historical_data.csv --days 252 --paths 10000 --output ..\reports
+.\code\run_mc.ps1
 ```
+
+**Manual:**
+```powershell
+cd geopolitical-investment-research-2026
+python code\monte_carlo_simulator.py --data data\sector_historical_data.csv --days 126 --paths 10000 --output reports
+```
+
+## Export to PDF
+
+```powershell
+.\code\export_to_pdf.ps1   # Requires Pandoc
+```
+Or: Open `reports/final_validated_report.md` → `Ctrl+Shift+V` preview → `Ctrl+P` Save as PDF.
 
 ## Data
 
