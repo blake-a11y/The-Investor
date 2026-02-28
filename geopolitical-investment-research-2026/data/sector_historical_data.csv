@@ -1,0 +1,4 @@
+date,sector,ticker,open,high,low,close,volume
+2025-01-02,Technology,SPY,475.00,478.50,474.20,477.80,50000000
+2025-01-02,Energy,XLE,85.00,86.20,84.50,85.80,25000000
+2025-01-02,Healthcare,XLV,140.00,141.20,139.50,140.90,18000000
