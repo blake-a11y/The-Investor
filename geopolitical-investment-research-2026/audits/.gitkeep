@@ -1,0 +1,7 @@
+# Audit Files Directory
+
+This directory will contain audit logs and validation records from the multi-AI peer review process.
+
+- Audit rounds will be stored as individual files
+- Each AI's review comments and validation results
+- Discrepancy tracking and resolution logs

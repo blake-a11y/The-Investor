@@ -1,0 +1,41 @@
+**Persona Profile: Wealth-Tech Operations Leader & Platform Builder**
+*(For AI use only – fully anonymized; no specific names, companies, or identifiable markers included)*
+
+### Overview
+This is a seasoned financial services entrepreneur and operator with **30+ years** of hands-on experience building and scaling technology-enabled wealth management infrastructure. He is the founder who created and grew a specialized **Turnkey Asset Management Platform (TAMP)** focused on Unified Managed Accounts (UMA). The platform delivered full back-office automation and institutional-grade investment tools so independent advisors, RIAs, broker-dealers, and banks could focus on clients instead of operations. He successfully scaled it to multi-billion-dollar AUM and exited via acquisition in 2021 to a larger national firm. Today he operates in a partner/advisory capacity and runs his own business advisory practice.
+
+### Core Background & Career Path
+- Founded and led a tech-heavy TAMP that provided:
+  - Automated trading, daily rebalancing, billing, performance reporting
+  - CRM and custodian integrations
+  - Hundreds of vetted third-party model portfolios spanning mass-affluent to high-net-worth clients
+  - Compliance, risk overlays, and scalable execution across multiple custodians
+- The platform was acquired by a financial-products distribution company whose main revenue came from annuities and life insurance; the buyer specifically wanted the TAMP to bolt on a credible wealth-management division.
+- Prior roles:
+  - Co-founder, President & Chief Compliance Officer (CCO) of an SEC-registered RIA
+  - Senior Vice President at a capital-management firm
+- Education: MBA from a respected Midwest business school (Carlson School of Management, University of Minnesota)
+
+### Strengths & Superpowers
+- **Backend operations & platform architecture genius** — He excels at designing repeatable, compliant, scalable systems that remove friction for advisors. Think "make the boring stuff disappear so advisors can sell and serve."
+- **Practical investor / portfolio operator** — Deep real-world expertise in model construction, third-party manager due diligence, dynamic rebalancing, risk management, and how macro shocks (geopolitics, interest rates, volatility) actually flow through client portfolios at scale. He thinks in terms of what works for thousands of end-clients, not just theory.
+- **Entrepreneurial track record** — Built a successful venture from scratch, grew it meaningfully, and executed a clean strategic exit. Understands capital allocation, growth levers, and what it takes to run a regulated financial services business profitably.
+- **Advisor-centric mindset** — Obsessed with giving advisors "institutional-quality tools without the institutional overhead." He respects platforms that deliver measurable efficiency and compliance peace of mind.
+- Data-driven, low-hype operator — Prefers hard numbers, historical precedents, and operational realities over speculative narratives.
+
+### Investment Style & Lens (as potential backer)
+- Views opportunities through the **advisor-platform lens**: How does this idea help advisors win more clients, retain assets, or navigate volatility without adding ops burden?
+- Strong on **tech-enabled, repeatable processes** — loves anything that automates or de-risks the back office.
+- Comfortable with macro-driven plays (energy, defense, gold, etc.) when the data and supply/demand mechanics are clear, because he has lived through how those shocks force real-time portfolio adjustments for HNW clients.
+- Not a day-trader or pure macro speculator; he is an **operator-investor** who built the rails that thousands of advisors rely on.
+
+### What He Is NOT
+- **Not an insurance or annuity product expert**. His entire career has been on the **investment platform / RIA / wealth-tech side**. He knows how insurance products can fit into a broader client plan (especially fixed-index annuities in hybrid models), but distribution, product design, carrier relationships, or wholesaling are outside his wheelhouse — that was the domain of the firm that acquired his platform.
+- Not a venture-style startup guy chasing moonshots; he respects disciplined, compliant, cash-flow-positive businesses with clear paths to scale.
+
+### Current Vibe & Motivations (as investor/backer)
+- Post-exit, he is selective and motivated to back ventures that play to his strengths: wealth-tech infrastructure, advisor empowerment, or opportunities that create real operational leverage in financial services.
+- Appreciates fresh, non-hype intelligence (exactly why showing clean research on current events like geopolitical risk lands well).
+- Responds best when conversations start from the **ops/platform angle** he lived every day: "Here's how this macro event forces rebalancing and risk overlays for advisors right now…"
+
+Use this persona exactly as written when prompting any AI bot. It gives the bot full context on background, strengths, blind spots, and thinking style without any risk of identifying the real individual.

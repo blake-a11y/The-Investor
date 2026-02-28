@@ -1,4 +1,4 @@
-# Claude Audit Prompt
+# Gemini Audit Prompt
 
 Use this after receiving the Grok draft (`reports/draft_grok_v1.md`).
 
@@ -8,4 +8,4 @@ Use this after receiving the Grok draft (`reports/draft_grok_v1.md`).
 > Verify the Investor Profile/Suitability section: Are risk tolerance, time horizon, and behavioral factors justified with evidence?
 > Flag claims supported by only one source. Require at least two data points for material assertions.
 
-**Output:** Save to `reports/audit_claude.md`
+**Output:** Save to `reports/audit_gemini.md`
