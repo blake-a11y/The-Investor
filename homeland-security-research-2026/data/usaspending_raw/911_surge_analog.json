@@ -1,0 +1,2860 @@
+{
+  "note": "DHS created Nov 2002, operational FY2003. Pre-DHS homeland security spread across DOD (097) and DOJ (015). DoD used as primary surge analog per GAO-03-1091T.",
+  "DoD_FY2001": {
+    "toptier_code": "097",
+    "agency_data_by_year": [
+      {
+        "fiscal_year": 2026,
+        "agency_budgetary_resources": 1422204199256.95,
+        "agency_total_obligated": 750169801359.65,
+        "agency_total_outlayed": 759865461688.29,
+        "total_budgetary_resources": 11789916426964.1,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 23326.83
+          },
+          {
+            "period": 3,
+            "obligated": 750169801359.65
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2025,
+        "agency_budgetary_resources": 2213230963902.27,
+        "agency_total_obligated": 1451320548889.53,
+        "agency_total_outlayed": 1342207853342.79,
+        "total_budgetary_resources": 13263700405307.76,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 398456658002.35
+          },
+          {
+            "period": 3,
+            "obligated": 855512284092.59
+          },
+          {
+            "period": 4,
+            "obligated": 595239307526.59
+          },
+          {
+            "period": 5,
+            "obligated": 682134002639.97
+          },
+          {
+            "period": 6,
+            "obligated": 782076175877.21
+          },
+          {
+            "period": 7,
+            "obligated": 872892531226.63
+          },
+          {
+            "period": 8,
+            "obligated": 980877501802.94
+          },
+          {
+            "period": 9,
+            "obligated": 1082947834057.57
+          },
+          {
+            "period": 10,
+            "obligated": 1196845387073.57
+          },
+          {
+            "period": 11,
+            "obligated": 96306950.8
+          },
+          {
+            "period": 12,
+            "obligated": 1451320548889.53
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2024,
+        "agency_budgetary_resources": 1991791156124.69,
+        "agency_total_obligated": 1393415222232.11,
+        "agency_total_outlayed": 1273430787033.52,
+        "total_budgetary_resources": 12248550270454.0,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 372683649001.54
+          },
+          {
+            "period": 3,
+            "obligated": 470249203742.88
+          },
+          {
+            "period": 4,
+            "obligated": 546860496823.15
+          },
+          {
+            "period": 5,
+            "obligated": 606268013902.68
+          },
+          {
+            "period": 6,
+            "obligated": 695121696498.3
+          },
+          {
+            "period": 7,
+            "obligated": 779596718197.25
+          },
+          {
+            "period": 8,
+            "obligated": 894845336934.44
+          },
+          {
+            "period": 9,
+            "obligated": 972877247395.82
+          },
+          {
+            "period": 10,
+            "obligated": 1076243078461.3
+          },
+          {
+            "period": 11,
+            "obligated": 1428718070313.67
+          },
+          {
+            "period": 12,
+            "obligated": 1393415222232.11
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2023,
+        "agency_budgetary_resources": 1523433316840.06,
+        "agency_total_obligated": 1330544104855.49,
+        "agency_total_outlayed": 1201506818580.03,
+        "total_budgetary_resources": 11889863708699.81,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 318614345217.45
+          },
+          {
+            "period": 3,
+            "obligated": 404578215703.05
+          },
+          {
+            "period": 4,
+            "obligated": 500878896282.08
+          },
+          {
+            "period": 5,
+            "obligated": 604251405688.25
+          },
+          {
+            "period": 6,
+            "obligated": 845750585977.9
+          },
+          {
+            "period": 7,
+            "obligated": 829892185262.31
+          },
+          {
+            "period": 8,
+            "obligated": 922555859484.84
+          },
+          {
+            "period": 9,
+            "obligated": 1012855274537.62
+          },
+          {
+            "period": 10,
+            "obligated": 1102426227316.76
+          },
+          {
+            "period": 11,
+            "obligated": 1195276300189.98
+          },
+          {
+            "period": 12,
+            "obligated": 1330544104855.49
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2022,
+        "agency_budgetary_resources": 1635073184398.36,
+        "agency_total_obligated": 1189944864054.66,
+        "agency_total_outlayed": 1158563273539.07,
+        "total_budgetary_resources": 11409814941613.59,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 285190512849.37
+          },
+          {
+            "period": 3,
+            "obligated": 380614416543.69
+          },
+          {
+            "period": 4,
+            "obligated": 455892075051.92
+          },
+          {
+            "period": 5,
+            "obligated": 538933483288.74
+          },
+          {
+            "period": 6,
+            "obligated": 635165398028.87
+          },
+          {
+            "period": 7,
+            "obligated": 795542808523.42
+          },
+          {
+            "period": 8,
+            "obligated": 929213997448.69
+          },
+          {
+            "period": 9,
+            "obligated": 1023357518571.64
+          },
+          {
+            "period": 10,
+            "obligated": 1070856648859.36
+          },
+          {
+            "period": 11,
+            "obligated": 1114832321196.4
+          },
+          {
+            "period": 12,
+            "obligated": 1189944864054.66
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2021,
+        "agency_budgetary_resources": 1514296053257.55,
+        "agency_total_obligated": 1146962263260.7,
+        "agency_total_outlayed": 1093571051964.83,
+        "total_budgetary_resources": 12219096866505.09,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 351408632268.34
+          },
+          {
+            "period": 6,
+            "obligated": 637671123441.85
+          },
+          {
+            "period": 9,
+            "obligated": 880926611048.97
+          },
+          {
+            "period": 12,
+            "obligated": 1146962263260.7
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2020,
+        "agency_budgetary_resources": 1278882283176.59,
+        "agency_total_obligated": 1130135336028.02,
+        "agency_total_outlayed": 1035697795898.37,
+        "total_budgetary_resources": 11461079028211.95,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 343637287683.57
+          },
+          {
+            "period": 6,
+            "obligated": 629424896012.17
+          },
+          {
+            "period": 9,
+            "obligated": 864337241228.82
+          },
+          {
+            "period": 12,
+            "obligated": 1130135336028.02
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2019,
+        "agency_budgetary_resources": 1252639175378.39,
+        "agency_total_obligated": 1154860031199.99,
+        "agency_total_outlayed": 1033847749792.71,
+        "total_budgetary_resources": 7985842464180.6,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 398949636935.96
+          },
+          {
+            "period": 6,
+            "obligated": 655762834836.15
+          },
+          {
+            "period": 9,
+            "obligated": 888075255943.56
+          },
+          {
+            "period": 12,
+            "obligated": 1154860031199.99
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2018,
+        "agency_budgetary_resources": 1261940994955.88,
+        "agency_total_obligated": 1092438524753.46,
+        "agency_total_outlayed": 958727485921.33,
+        "total_budgetary_resources": 7593875408547.67,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 320657316248.38
+          },
+          {
+            "period": 6,
+            "obligated": 554066118071.81
+          },
+          {
+            "period": 9,
+            "obligated": 807261336179.17
+          },
+          {
+            "period": 12,
+            "obligated": 1092438524753.46
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2017,
+        "agency_budgetary_resources": 1163404425401.68,
+        "agency_total_obligated": 1014206206108.0,
+        "agency_total_outlayed": 918268551866.96,
+        "total_budgetary_resources": 7158037155046.72,
+        "agency_obligation_by_period": [
+          {
+            "period": 6,
+            "obligated": 528288078948.38
+          },
+          {
+            "period": 9,
+            "obligated": 755345999399.89
+          },
+          {
+            "period": 12,
+            "obligated": 1014206206108.0
+          }
+        ]
+      }
+    ],
+    "messages": []
+  },
+  "DoD_FY2002": {
+    "toptier_code": "097",
+    "agency_data_by_year": [
+      {
+        "fiscal_year": 2026,
+        "agency_budgetary_resources": 1422204199256.95,
+        "agency_total_obligated": 750169801359.65,
+        "agency_total_outlayed": 759865461688.29,
+        "total_budgetary_resources": 11789916426964.1,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 23326.83
+          },
+          {
+            "period": 3,
+            "obligated": 750169801359.65
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2025,
+        "agency_budgetary_resources": 2213230963902.27,
+        "agency_total_obligated": 1451320548889.53,
+        "agency_total_outlayed": 1342207853342.79,
+        "total_budgetary_resources": 13263700405307.76,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 398456658002.35
+          },
+          {
+            "period": 3,
+            "obligated": 855512284092.59
+          },
+          {
+            "period": 4,
+            "obligated": 595239307526.59
+          },
+          {
+            "period": 5,
+            "obligated": 682134002639.97
+          },
+          {
+            "period": 6,
+            "obligated": 782076175877.21
+          },
+          {
+            "period": 7,
+            "obligated": 872892531226.63
+          },
+          {
+            "period": 8,
+            "obligated": 980877501802.94
+          },
+          {
+            "period": 9,
+            "obligated": 1082947834057.57
+          },
+          {
+            "period": 10,
+            "obligated": 1196845387073.57
+          },
+          {
+            "period": 11,
+            "obligated": 96306950.8
+          },
+          {
+            "period": 12,
+            "obligated": 1451320548889.53
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2024,
+        "agency_budgetary_resources": 1991791156124.69,
+        "agency_total_obligated": 1393415222232.11,
+        "agency_total_outlayed": 1273430787033.52,
+        "total_budgetary_resources": 12248550270454.0,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 372683649001.54
+          },
+          {
+            "period": 3,
+            "obligated": 470249203742.88
+          },
+          {
+            "period": 4,
+            "obligated": 546860496823.15
+          },
+          {
+            "period": 5,
+            "obligated": 606268013902.68
+          },
+          {
+            "period": 6,
+            "obligated": 695121696498.3
+          },
+          {
+            "period": 7,
+            "obligated": 779596718197.25
+          },
+          {
+            "period": 8,
+            "obligated": 894845336934.44
+          },
+          {
+            "period": 9,
+            "obligated": 972877247395.82
+          },
+          {
+            "period": 10,
+            "obligated": 1076243078461.3
+          },
+          {
+            "period": 11,
+            "obligated": 1428718070313.67
+          },
+          {
+            "period": 12,
+            "obligated": 1393415222232.11
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2023,
+        "agency_budgetary_resources": 1523433316840.06,
+        "agency_total_obligated": 1330544104855.49,
+        "agency_total_outlayed": 1201506818580.03,
+        "total_budgetary_resources": 11889863708699.81,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 318614345217.45
+          },
+          {
+            "period": 3,
+            "obligated": 404578215703.05
+          },
+          {
+            "period": 4,
+            "obligated": 500878896282.08
+          },
+          {
+            "period": 5,
+            "obligated": 604251405688.25
+          },
+          {
+            "period": 6,
+            "obligated": 845750585977.9
+          },
+          {
+            "period": 7,
+            "obligated": 829892185262.31
+          },
+          {
+            "period": 8,
+            "obligated": 922555859484.84
+          },
+          {
+            "period": 9,
+            "obligated": 1012855274537.62
+          },
+          {
+            "period": 10,
+            "obligated": 1102426227316.76
+          },
+          {
+            "period": 11,
+            "obligated": 1195276300189.98
+          },
+          {
+            "period": 12,
+            "obligated": 1330544104855.49
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2022,
+        "agency_budgetary_resources": 1635073184398.36,
+        "agency_total_obligated": 1189944864054.66,
+        "agency_total_outlayed": 1158563273539.07,
+        "total_budgetary_resources": 11409814941613.59,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 285190512849.37
+          },
+          {
+            "period": 3,
+            "obligated": 380614416543.69
+          },
+          {
+            "period": 4,
+            "obligated": 455892075051.92
+          },
+          {
+            "period": 5,
+            "obligated": 538933483288.74
+          },
+          {
+            "period": 6,
+            "obligated": 635165398028.87
+          },
+          {
+            "period": 7,
+            "obligated": 795542808523.42
+          },
+          {
+            "period": 8,
+            "obligated": 929213997448.69
+          },
+          {
+            "period": 9,
+            "obligated": 1023357518571.64
+          },
+          {
+            "period": 10,
+            "obligated": 1070856648859.36
+          },
+          {
+            "period": 11,
+            "obligated": 1114832321196.4
+          },
+          {
+            "period": 12,
+            "obligated": 1189944864054.66
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2021,
+        "agency_budgetary_resources": 1514296053257.55,
+        "agency_total_obligated": 1146962263260.7,
+        "agency_total_outlayed": 1093571051964.83,
+        "total_budgetary_resources": 12219096866505.09,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 351408632268.34
+          },
+          {
+            "period": 6,
+            "obligated": 637671123441.85
+          },
+          {
+            "period": 9,
+            "obligated": 880926611048.97
+          },
+          {
+            "period": 12,
+            "obligated": 1146962263260.7
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2020,
+        "agency_budgetary_resources": 1278882283176.59,
+        "agency_total_obligated": 1130135336028.02,
+        "agency_total_outlayed": 1035697795898.37,
+        "total_budgetary_resources": 11461079028211.95,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 343637287683.57
+          },
+          {
+            "period": 6,
+            "obligated": 629424896012.17
+          },
+          {
+            "period": 9,
+            "obligated": 864337241228.82
+          },
+          {
+            "period": 12,
+            "obligated": 1130135336028.02
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2019,
+        "agency_budgetary_resources": 1252639175378.39,
+        "agency_total_obligated": 1154860031199.99,
+        "agency_total_outlayed": 1033847749792.71,
+        "total_budgetary_resources": 7985842464180.6,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 398949636935.96
+          },
+          {
+            "period": 6,
+            "obligated": 655762834836.15
+          },
+          {
+            "period": 9,
+            "obligated": 888075255943.56
+          },
+          {
+            "period": 12,
+            "obligated": 1154860031199.99
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2018,
+        "agency_budgetary_resources": 1261940994955.88,
+        "agency_total_obligated": 1092438524753.46,
+        "agency_total_outlayed": 958727485921.33,
+        "total_budgetary_resources": 7593875408547.67,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 320657316248.38
+          },
+          {
+            "period": 6,
+            "obligated": 554066118071.81
+          },
+          {
+            "period": 9,
+            "obligated": 807261336179.17
+          },
+          {
+            "period": 12,
+            "obligated": 1092438524753.46
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2017,
+        "agency_budgetary_resources": 1163404425401.68,
+        "agency_total_obligated": 1014206206108.0,
+        "agency_total_outlayed": 918268551866.96,
+        "total_budgetary_resources": 7158037155046.72,
+        "agency_obligation_by_period": [
+          {
+            "period": 6,
+            "obligated": 528288078948.38
+          },
+          {
+            "period": 9,
+            "obligated": 755345999399.89
+          },
+          {
+            "period": 12,
+            "obligated": 1014206206108.0
+          }
+        ]
+      }
+    ],
+    "messages": []
+  },
+  "DoD_FY2003": {
+    "toptier_code": "097",
+    "agency_data_by_year": [
+      {
+        "fiscal_year": 2026,
+        "agency_budgetary_resources": 1422204199256.95,
+        "agency_total_obligated": 750169801359.65,
+        "agency_total_outlayed": 759865461688.29,
+        "total_budgetary_resources": 11789916426964.1,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 23326.83
+          },
+          {
+            "period": 3,
+            "obligated": 750169801359.65
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2025,
+        "agency_budgetary_resources": 2213230963902.27,
+        "agency_total_obligated": 1451320548889.53,
+        "agency_total_outlayed": 1342207853342.79,
+        "total_budgetary_resources": 13263700405307.76,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 398456658002.35
+          },
+          {
+            "period": 3,
+            "obligated": 855512284092.59
+          },
+          {
+            "period": 4,
+            "obligated": 595239307526.59
+          },
+          {
+            "period": 5,
+            "obligated": 682134002639.97
+          },
+          {
+            "period": 6,
+            "obligated": 782076175877.21
+          },
+          {
+            "period": 7,
+            "obligated": 872892531226.63
+          },
+          {
+            "period": 8,
+            "obligated": 980877501802.94
+          },
+          {
+            "period": 9,
+            "obligated": 1082947834057.57
+          },
+          {
+            "period": 10,
+            "obligated": 1196845387073.57
+          },
+          {
+            "period": 11,
+            "obligated": 96306950.8
+          },
+          {
+            "period": 12,
+            "obligated": 1451320548889.53
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2024,
+        "agency_budgetary_resources": 1991791156124.69,
+        "agency_total_obligated": 1393415222232.11,
+        "agency_total_outlayed": 1273430787033.52,
+        "total_budgetary_resources": 12248550270454.0,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 372683649001.54
+          },
+          {
+            "period": 3,
+            "obligated": 470249203742.88
+          },
+          {
+            "period": 4,
+            "obligated": 546860496823.15
+          },
+          {
+            "period": 5,
+            "obligated": 606268013902.68
+          },
+          {
+            "period": 6,
+            "obligated": 695121696498.3
+          },
+          {
+            "period": 7,
+            "obligated": 779596718197.25
+          },
+          {
+            "period": 8,
+            "obligated": 894845336934.44
+          },
+          {
+            "period": 9,
+            "obligated": 972877247395.82
+          },
+          {
+            "period": 10,
+            "obligated": 1076243078461.3
+          },
+          {
+            "period": 11,
+            "obligated": 1428718070313.67
+          },
+          {
+            "period": 12,
+            "obligated": 1393415222232.11
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2023,
+        "agency_budgetary_resources": 1523433316840.06,
+        "agency_total_obligated": 1330544104855.49,
+        "agency_total_outlayed": 1201506818580.03,
+        "total_budgetary_resources": 11889863708699.81,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 318614345217.45
+          },
+          {
+            "period": 3,
+            "obligated": 404578215703.05
+          },
+          {
+            "period": 4,
+            "obligated": 500878896282.08
+          },
+          {
+            "period": 5,
+            "obligated": 604251405688.25
+          },
+          {
+            "period": 6,
+            "obligated": 845750585977.9
+          },
+          {
+            "period": 7,
+            "obligated": 829892185262.31
+          },
+          {
+            "period": 8,
+            "obligated": 922555859484.84
+          },
+          {
+            "period": 9,
+            "obligated": 1012855274537.62
+          },
+          {
+            "period": 10,
+            "obligated": 1102426227316.76
+          },
+          {
+            "period": 11,
+            "obligated": 1195276300189.98
+          },
+          {
+            "period": 12,
+            "obligated": 1330544104855.49
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2022,
+        "agency_budgetary_resources": 1635073184398.36,
+        "agency_total_obligated": 1189944864054.66,
+        "agency_total_outlayed": 1158563273539.07,
+        "total_budgetary_resources": 11409814941613.59,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 285190512849.37
+          },
+          {
+            "period": 3,
+            "obligated": 380614416543.69
+          },
+          {
+            "period": 4,
+            "obligated": 455892075051.92
+          },
+          {
+            "period": 5,
+            "obligated": 538933483288.74
+          },
+          {
+            "period": 6,
+            "obligated": 635165398028.87
+          },
+          {
+            "period": 7,
+            "obligated": 795542808523.42
+          },
+          {
+            "period": 8,
+            "obligated": 929213997448.69
+          },
+          {
+            "period": 9,
+            "obligated": 1023357518571.64
+          },
+          {
+            "period": 10,
+            "obligated": 1070856648859.36
+          },
+          {
+            "period": 11,
+            "obligated": 1114832321196.4
+          },
+          {
+            "period": 12,
+            "obligated": 1189944864054.66
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2021,
+        "agency_budgetary_resources": 1514296053257.55,
+        "agency_total_obligated": 1146962263260.7,
+        "agency_total_outlayed": 1093571051964.83,
+        "total_budgetary_resources": 12219096866505.09,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 351408632268.34
+          },
+          {
+            "period": 6,
+            "obligated": 637671123441.85
+          },
+          {
+            "period": 9,
+            "obligated": 880926611048.97
+          },
+          {
+            "period": 12,
+            "obligated": 1146962263260.7
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2020,
+        "agency_budgetary_resources": 1278882283176.59,
+        "agency_total_obligated": 1130135336028.02,
+        "agency_total_outlayed": 1035697795898.37,
+        "total_budgetary_resources": 11461079028211.95,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 343637287683.57
+          },
+          {
+            "period": 6,
+            "obligated": 629424896012.17
+          },
+          {
+            "period": 9,
+            "obligated": 864337241228.82
+          },
+          {
+            "period": 12,
+            "obligated": 1130135336028.02
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2019,
+        "agency_budgetary_resources": 1252639175378.39,
+        "agency_total_obligated": 1154860031199.99,
+        "agency_total_outlayed": 1033847749792.71,
+        "total_budgetary_resources": 7985842464180.6,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 398949636935.96
+          },
+          {
+            "period": 6,
+            "obligated": 655762834836.15
+          },
+          {
+            "period": 9,
+            "obligated": 888075255943.56
+          },
+          {
+            "period": 12,
+            "obligated": 1154860031199.99
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2018,
+        "agency_budgetary_resources": 1261940994955.88,
+        "agency_total_obligated": 1092438524753.46,
+        "agency_total_outlayed": 958727485921.33,
+        "total_budgetary_resources": 7593875408547.67,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 320657316248.38
+          },
+          {
+            "period": 6,
+            "obligated": 554066118071.81
+          },
+          {
+            "period": 9,
+            "obligated": 807261336179.17
+          },
+          {
+            "period": 12,
+            "obligated": 1092438524753.46
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2017,
+        "agency_budgetary_resources": 1163404425401.68,
+        "agency_total_obligated": 1014206206108.0,
+        "agency_total_outlayed": 918268551866.96,
+        "total_budgetary_resources": 7158037155046.72,
+        "agency_obligation_by_period": [
+          {
+            "period": 6,
+            "obligated": 528288078948.38
+          },
+          {
+            "period": 9,
+            "obligated": 755345999399.89
+          },
+          {
+            "period": 12,
+            "obligated": 1014206206108.0
+          }
+        ]
+      }
+    ],
+    "messages": []
+  },
+  "DoD_FY2004": {
+    "toptier_code": "097",
+    "agency_data_by_year": [
+      {
+        "fiscal_year": 2026,
+        "agency_budgetary_resources": 1422204199256.95,
+        "agency_total_obligated": 750169801359.65,
+        "agency_total_outlayed": 759865461688.29,
+        "total_budgetary_resources": 11789916426964.1,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 23326.83
+          },
+          {
+            "period": 3,
+            "obligated": 750169801359.65
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2025,
+        "agency_budgetary_resources": 2213230963902.27,
+        "agency_total_obligated": 1451320548889.53,
+        "agency_total_outlayed": 1342207853342.79,
+        "total_budgetary_resources": 13263700405307.76,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 398456658002.35
+          },
+          {
+            "period": 3,
+            "obligated": 855512284092.59
+          },
+          {
+            "period": 4,
+            "obligated": 595239307526.59
+          },
+          {
+            "period": 5,
+            "obligated": 682134002639.97
+          },
+          {
+            "period": 6,
+            "obligated": 782076175877.21
+          },
+          {
+            "period": 7,
+            "obligated": 872892531226.63
+          },
+          {
+            "period": 8,
+            "obligated": 980877501802.94
+          },
+          {
+            "period": 9,
+            "obligated": 1082947834057.57
+          },
+          {
+            "period": 10,
+            "obligated": 1196845387073.57
+          },
+          {
+            "period": 11,
+            "obligated": 96306950.8
+          },
+          {
+            "period": 12,
+            "obligated": 1451320548889.53
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2024,
+        "agency_budgetary_resources": 1991791156124.69,
+        "agency_total_obligated": 1393415222232.11,
+        "agency_total_outlayed": 1273430787033.52,
+        "total_budgetary_resources": 12248550270454.0,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 372683649001.54
+          },
+          {
+            "period": 3,
+            "obligated": 470249203742.88
+          },
+          {
+            "period": 4,
+            "obligated": 546860496823.15
+          },
+          {
+            "period": 5,
+            "obligated": 606268013902.68
+          },
+          {
+            "period": 6,
+            "obligated": 695121696498.3
+          },
+          {
+            "period": 7,
+            "obligated": 779596718197.25
+          },
+          {
+            "period": 8,
+            "obligated": 894845336934.44
+          },
+          {
+            "period": 9,
+            "obligated": 972877247395.82
+          },
+          {
+            "period": 10,
+            "obligated": 1076243078461.3
+          },
+          {
+            "period": 11,
+            "obligated": 1428718070313.67
+          },
+          {
+            "period": 12,
+            "obligated": 1393415222232.11
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2023,
+        "agency_budgetary_resources": 1523433316840.06,
+        "agency_total_obligated": 1330544104855.49,
+        "agency_total_outlayed": 1201506818580.03,
+        "total_budgetary_resources": 11889863708699.81,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 318614345217.45
+          },
+          {
+            "period": 3,
+            "obligated": 404578215703.05
+          },
+          {
+            "period": 4,
+            "obligated": 500878896282.08
+          },
+          {
+            "period": 5,
+            "obligated": 604251405688.25
+          },
+          {
+            "period": 6,
+            "obligated": 845750585977.9
+          },
+          {
+            "period": 7,
+            "obligated": 829892185262.31
+          },
+          {
+            "period": 8,
+            "obligated": 922555859484.84
+          },
+          {
+            "period": 9,
+            "obligated": 1012855274537.62
+          },
+          {
+            "period": 10,
+            "obligated": 1102426227316.76
+          },
+          {
+            "period": 11,
+            "obligated": 1195276300189.98
+          },
+          {
+            "period": 12,
+            "obligated": 1330544104855.49
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2022,
+        "agency_budgetary_resources": 1635073184398.36,
+        "agency_total_obligated": 1189944864054.66,
+        "agency_total_outlayed": 1158563273539.07,
+        "total_budgetary_resources": 11409814941613.59,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 285190512849.37
+          },
+          {
+            "period": 3,
+            "obligated": 380614416543.69
+          },
+          {
+            "period": 4,
+            "obligated": 455892075051.92
+          },
+          {
+            "period": 5,
+            "obligated": 538933483288.74
+          },
+          {
+            "period": 6,
+            "obligated": 635165398028.87
+          },
+          {
+            "period": 7,
+            "obligated": 795542808523.42
+          },
+          {
+            "period": 8,
+            "obligated": 929213997448.69
+          },
+          {
+            "period": 9,
+            "obligated": 1023357518571.64
+          },
+          {
+            "period": 10,
+            "obligated": 1070856648859.36
+          },
+          {
+            "period": 11,
+            "obligated": 1114832321196.4
+          },
+          {
+            "period": 12,
+            "obligated": 1189944864054.66
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2021,
+        "agency_budgetary_resources": 1514296053257.55,
+        "agency_total_obligated": 1146962263260.7,
+        "agency_total_outlayed": 1093571051964.83,
+        "total_budgetary_resources": 12219096866505.09,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 351408632268.34
+          },
+          {
+            "period": 6,
+            "obligated": 637671123441.85
+          },
+          {
+            "period": 9,
+            "obligated": 880926611048.97
+          },
+          {
+            "period": 12,
+            "obligated": 1146962263260.7
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2020,
+        "agency_budgetary_resources": 1278882283176.59,
+        "agency_total_obligated": 1130135336028.02,
+        "agency_total_outlayed": 1035697795898.37,
+        "total_budgetary_resources": 11461079028211.95,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 343637287683.57
+          },
+          {
+            "period": 6,
+            "obligated": 629424896012.17
+          },
+          {
+            "period": 9,
+            "obligated": 864337241228.82
+          },
+          {
+            "period": 12,
+            "obligated": 1130135336028.02
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2019,
+        "agency_budgetary_resources": 1252639175378.39,
+        "agency_total_obligated": 1154860031199.99,
+        "agency_total_outlayed": 1033847749792.71,
+        "total_budgetary_resources": 7985842464180.6,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 398949636935.96
+          },
+          {
+            "period": 6,
+            "obligated": 655762834836.15
+          },
+          {
+            "period": 9,
+            "obligated": 888075255943.56
+          },
+          {
+            "period": 12,
+            "obligated": 1154860031199.99
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2018,
+        "agency_budgetary_resources": 1261940994955.88,
+        "agency_total_obligated": 1092438524753.46,
+        "agency_total_outlayed": 958727485921.33,
+        "total_budgetary_resources": 7593875408547.67,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 320657316248.38
+          },
+          {
+            "period": 6,
+            "obligated": 554066118071.81
+          },
+          {
+            "period": 9,
+            "obligated": 807261336179.17
+          },
+          {
+            "period": 12,
+            "obligated": 1092438524753.46
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2017,
+        "agency_budgetary_resources": 1163404425401.68,
+        "agency_total_obligated": 1014206206108.0,
+        "agency_total_outlayed": 918268551866.96,
+        "total_budgetary_resources": 7158037155046.72,
+        "agency_obligation_by_period": [
+          {
+            "period": 6,
+            "obligated": 528288078948.38
+          },
+          {
+            "period": 9,
+            "obligated": 755345999399.89
+          },
+          {
+            "period": 12,
+            "obligated": 1014206206108.0
+          }
+        ]
+      }
+    ],
+    "messages": []
+  },
+  "DOJ_FY2001": {
+    "toptier_code": "015",
+    "agency_data_by_year": [
+      {
+        "fiscal_year": 2026,
+        "agency_budgetary_resources": 60020146129.32,
+        "agency_total_obligated": 16121111870.89,
+        "agency_total_outlayed": 15849234238.45,
+        "total_budgetary_resources": 11789916426964.1,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 9545380298.14
+          },
+          {
+            "period": 3,
+            "obligated": 16121111870.89
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2025,
+        "agency_budgetary_resources": 79483838493.75,
+        "agency_total_obligated": 50454183477.6,
+        "agency_total_outlayed": 52345326420.1,
+        "total_budgetary_resources": 13263700405307.76,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 8272498996.8
+          },
+          {
+            "period": 3,
+            "obligated": 12861390325.69
+          },
+          {
+            "period": 4,
+            "obligated": 16777367156.36
+          },
+          {
+            "period": 5,
+            "obligated": 20472959026.25
+          },
+          {
+            "period": 6,
+            "obligated": 23543169654.94
+          },
+          {
+            "period": 7,
+            "obligated": 26727665810.09
+          },
+          {
+            "period": 8,
+            "obligated": 31391866090.79
+          },
+          {
+            "period": 9,
+            "obligated": 35512816581.57
+          },
+          {
+            "period": 10,
+            "obligated": 39676026699.76
+          },
+          {
+            "period": 11,
+            "obligated": 43166986453.33
+          },
+          {
+            "period": 12,
+            "obligated": 50454183477.6
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2024,
+        "agency_budgetary_resources": 67061299651.16,
+        "agency_total_obligated": 52006258903.46,
+        "agency_total_outlayed": 52385538082.59,
+        "total_budgetary_resources": 12248550270454.0,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 7970378221.79
+          },
+          {
+            "period": 3,
+            "obligated": 11384300486.11
+          },
+          {
+            "period": 4,
+            "obligated": 14716943289.98
+          },
+          {
+            "period": 5,
+            "obligated": 18216980030.19
+          },
+          {
+            "period": 6,
+            "obligated": 22135727590.26
+          },
+          {
+            "period": 7,
+            "obligated": 26794546170.52
+          },
+          {
+            "period": 8,
+            "obligated": 31616794737.19
+          },
+          {
+            "period": 9,
+            "obligated": 35168735256.78
+          },
+          {
+            "period": 10,
+            "obligated": 39335805602.88
+          },
+          {
+            "period": 11,
+            "obligated": 43629727132.63
+          },
+          {
+            "period": 12,
+            "obligated": 52006258903.46
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2023,
+        "agency_budgetary_resources": 69198013003.84,
+        "agency_total_obligated": 55576215204.85,
+        "agency_total_outlayed": 51449631893.11,
+        "total_budgetary_resources": 11889863708699.81,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 7243397908.47
+          },
+          {
+            "period": 3,
+            "obligated": 11138626176.08
+          },
+          {
+            "period": 4,
+            "obligated": 14754710989.42
+          },
+          {
+            "period": 5,
+            "obligated": 19414651759.71
+          },
+          {
+            "period": 6,
+            "obligated": 26289823765.52
+          },
+          {
+            "period": 7,
+            "obligated": 29860267456.17
+          },
+          {
+            "period": 8,
+            "obligated": 33635852343.62
+          },
+          {
+            "period": 9,
+            "obligated": 36959213642.86
+          },
+          {
+            "period": 10,
+            "obligated": 40505382463.19
+          },
+          {
+            "period": 11,
+            "obligated": 46863765449.46
+          },
+          {
+            "period": 12,
+            "obligated": 55576215204.85
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2022,
+        "agency_budgetary_resources": 59259622793.72,
+        "agency_total_obligated": 49684118644.77,
+        "agency_total_outlayed": 45873755604.44,
+        "total_budgetary_resources": 11409814941613.59,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 6249519691.19
+          },
+          {
+            "period": 3,
+            "obligated": 11502975757.45
+          },
+          {
+            "period": 4,
+            "obligated": 14647260425.42
+          },
+          {
+            "period": 5,
+            "obligated": 17488215220.86
+          },
+          {
+            "period": 6,
+            "obligated": 21224505716.56
+          },
+          {
+            "period": 7,
+            "obligated": 25408777953.94
+          },
+          {
+            "period": 8,
+            "obligated": 29531295110.02
+          },
+          {
+            "period": 9,
+            "obligated": 33457702727.62
+          },
+          {
+            "period": 10,
+            "obligated": 36850409526.6
+          },
+          {
+            "period": 11,
+            "obligated": 42548987953.64
+          },
+          {
+            "period": 12,
+            "obligated": 49684118644.77
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2021,
+        "agency_budgetary_resources": 54641326845.54,
+        "agency_total_obligated": 44310527077.8,
+        "agency_total_outlayed": 46156170622.97,
+        "total_budgetary_resources": 12219096866505.09,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 7661825047.32
+          },
+          {
+            "period": 6,
+            "obligated": 21672825108.73
+          },
+          {
+            "period": 9,
+            "obligated": 25368168193.97
+          },
+          {
+            "period": 12,
+            "obligated": 44310527077.8
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2020,
+        "agency_budgetary_resources": 55475101557.58,
+        "agency_total_obligated": 47420465932.45,
+        "agency_total_outlayed": 46274434444.13,
+        "total_budgetary_resources": 11461079028211.95,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 8194614222.09
+          },
+          {
+            "period": 6,
+            "obligated": 20311232236.41
+          },
+          {
+            "period": 9,
+            "obligated": 31819778577.37
+          },
+          {
+            "period": 12,
+            "obligated": 47420465932.45
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2019,
+        "agency_budgetary_resources": 55761272144.31,
+        "agency_total_obligated": 42341175319.89,
+        "agency_total_outlayed": 42150108057.23,
+        "total_budgetary_resources": 7985842464180.6,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 9253856459.42
+          },
+          {
+            "period": 6,
+            "obligated": 18175478380.26
+          },
+          {
+            "period": 9,
+            "obligated": 27423987833.24
+          },
+          {
+            "period": 12,
+            "obligated": 42341175319.89
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2018,
+        "agency_budgetary_resources": 55660923546.73,
+        "agency_total_obligated": 39970356916.65,
+        "agency_total_outlayed": 38018802348.21,
+        "total_budgetary_resources": 7593875408547.67,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 8457974370.3
+          },
+          {
+            "period": 6,
+            "obligated": 17102192319.95
+          },
+          {
+            "period": 9,
+            "obligated": 26024835920.18
+          },
+          {
+            "period": 12,
+            "obligated": 39970356916.65
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2017,
+        "agency_budgetary_resources": 53462142734.57,
+        "agency_total_obligated": 41400905158.91,
+        "agency_total_outlayed": 39698016632.15,
+        "total_budgetary_resources": 7158037155046.72,
+        "agency_obligation_by_period": [
+          {
+            "period": 6,
+            "obligated": 17894508209.44
+          },
+          {
+            "period": 9,
+            "obligated": 27811465428.83
+          },
+          {
+            "period": 12,
+            "obligated": 41400905158.91
+          }
+        ]
+      }
+    ],
+    "messages": []
+  },
+  "DOJ_FY2002": {
+    "toptier_code": "015",
+    "agency_data_by_year": [
+      {
+        "fiscal_year": 2026,
+        "agency_budgetary_resources": 60020146129.32,
+        "agency_total_obligated": 16121111870.89,
+        "agency_total_outlayed": 15849234238.45,
+        "total_budgetary_resources": 11789916426964.1,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 9545380298.14
+          },
+          {
+            "period": 3,
+            "obligated": 16121111870.89
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2025,
+        "agency_budgetary_resources": 79483838493.75,
+        "agency_total_obligated": 50454183477.6,
+        "agency_total_outlayed": 52345326420.1,
+        "total_budgetary_resources": 13263700405307.76,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 8272498996.8
+          },
+          {
+            "period": 3,
+            "obligated": 12861390325.69
+          },
+          {
+            "period": 4,
+            "obligated": 16777367156.36
+          },
+          {
+            "period": 5,
+            "obligated": 20472959026.25
+          },
+          {
+            "period": 6,
+            "obligated": 23543169654.94
+          },
+          {
+            "period": 7,
+            "obligated": 26727665810.09
+          },
+          {
+            "period": 8,
+            "obligated": 31391866090.79
+          },
+          {
+            "period": 9,
+            "obligated": 35512816581.57
+          },
+          {
+            "period": 10,
+            "obligated": 39676026699.76
+          },
+          {
+            "period": 11,
+            "obligated": 43166986453.33
+          },
+          {
+            "period": 12,
+            "obligated": 50454183477.6
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2024,
+        "agency_budgetary_resources": 67061299651.16,
+        "agency_total_obligated": 52006258903.46,
+        "agency_total_outlayed": 52385538082.59,
+        "total_budgetary_resources": 12248550270454.0,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 7970378221.79
+          },
+          {
+            "period": 3,
+            "obligated": 11384300486.11
+          },
+          {
+            "period": 4,
+            "obligated": 14716943289.98
+          },
+          {
+            "period": 5,
+            "obligated": 18216980030.19
+          },
+          {
+            "period": 6,
+            "obligated": 22135727590.26
+          },
+          {
+            "period": 7,
+            "obligated": 26794546170.52
+          },
+          {
+            "period": 8,
+            "obligated": 31616794737.19
+          },
+          {
+            "period": 9,
+            "obligated": 35168735256.78
+          },
+          {
+            "period": 10,
+            "obligated": 39335805602.88
+          },
+          {
+            "period": 11,
+            "obligated": 43629727132.63
+          },
+          {
+            "period": 12,
+            "obligated": 52006258903.46
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2023,
+        "agency_budgetary_resources": 69198013003.84,
+        "agency_total_obligated": 55576215204.85,
+        "agency_total_outlayed": 51449631893.11,
+        "total_budgetary_resources": 11889863708699.81,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 7243397908.47
+          },
+          {
+            "period": 3,
+            "obligated": 11138626176.08
+          },
+          {
+            "period": 4,
+            "obligated": 14754710989.42
+          },
+          {
+            "period": 5,
+            "obligated": 19414651759.71
+          },
+          {
+            "period": 6,
+            "obligated": 26289823765.52
+          },
+          {
+            "period": 7,
+            "obligated": 29860267456.17
+          },
+          {
+            "period": 8,
+            "obligated": 33635852343.62
+          },
+          {
+            "period": 9,
+            "obligated": 36959213642.86
+          },
+          {
+            "period": 10,
+            "obligated": 40505382463.19
+          },
+          {
+            "period": 11,
+            "obligated": 46863765449.46
+          },
+          {
+            "period": 12,
+            "obligated": 55576215204.85
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2022,
+        "agency_budgetary_resources": 59259622793.72,
+        "agency_total_obligated": 49684118644.77,
+        "agency_total_outlayed": 45873755604.44,
+        "total_budgetary_resources": 11409814941613.59,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 6249519691.19
+          },
+          {
+            "period": 3,
+            "obligated": 11502975757.45
+          },
+          {
+            "period": 4,
+            "obligated": 14647260425.42
+          },
+          {
+            "period": 5,
+            "obligated": 17488215220.86
+          },
+          {
+            "period": 6,
+            "obligated": 21224505716.56
+          },
+          {
+            "period": 7,
+            "obligated": 25408777953.94
+          },
+          {
+            "period": 8,
+            "obligated": 29531295110.02
+          },
+          {
+            "period": 9,
+            "obligated": 33457702727.62
+          },
+          {
+            "period": 10,
+            "obligated": 36850409526.6
+          },
+          {
+            "period": 11,
+            "obligated": 42548987953.64
+          },
+          {
+            "period": 12,
+            "obligated": 49684118644.77
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2021,
+        "agency_budgetary_resources": 54641326845.54,
+        "agency_total_obligated": 44310527077.8,
+        "agency_total_outlayed": 46156170622.97,
+        "total_budgetary_resources": 12219096866505.09,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 7661825047.32
+          },
+          {
+            "period": 6,
+            "obligated": 21672825108.73
+          },
+          {
+            "period": 9,
+            "obligated": 25368168193.97
+          },
+          {
+            "period": 12,
+            "obligated": 44310527077.8
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2020,
+        "agency_budgetary_resources": 55475101557.58,
+        "agency_total_obligated": 47420465932.45,
+        "agency_total_outlayed": 46274434444.13,
+        "total_budgetary_resources": 11461079028211.95,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 8194614222.09
+          },
+          {
+            "period": 6,
+            "obligated": 20311232236.41
+          },
+          {
+            "period": 9,
+            "obligated": 31819778577.37
+          },
+          {
+            "period": 12,
+            "obligated": 47420465932.45
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2019,
+        "agency_budgetary_resources": 55761272144.31,
+        "agency_total_obligated": 42341175319.89,
+        "agency_total_outlayed": 42150108057.23,
+        "total_budgetary_resources": 7985842464180.6,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 9253856459.42
+          },
+          {
+            "period": 6,
+            "obligated": 18175478380.26
+          },
+          {
+            "period": 9,
+            "obligated": 27423987833.24
+          },
+          {
+            "period": 12,
+            "obligated": 42341175319.89
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2018,
+        "agency_budgetary_resources": 55660923546.73,
+        "agency_total_obligated": 39970356916.65,
+        "agency_total_outlayed": 38018802348.21,
+        "total_budgetary_resources": 7593875408547.67,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 8457974370.3
+          },
+          {
+            "period": 6,
+            "obligated": 17102192319.95
+          },
+          {
+            "period": 9,
+            "obligated": 26024835920.18
+          },
+          {
+            "period": 12,
+            "obligated": 39970356916.65
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2017,
+        "agency_budgetary_resources": 53462142734.57,
+        "agency_total_obligated": 41400905158.91,
+        "agency_total_outlayed": 39698016632.15,
+        "total_budgetary_resources": 7158037155046.72,
+        "agency_obligation_by_period": [
+          {
+            "period": 6,
+            "obligated": 17894508209.44
+          },
+          {
+            "period": 9,
+            "obligated": 27811465428.83
+          },
+          {
+            "period": 12,
+            "obligated": 41400905158.91
+          }
+        ]
+      }
+    ],
+    "messages": []
+  },
+  "DOJ_FY2003": {
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  "DOJ_FY2004": {
+    "toptier_code": "015",
+    "agency_data_by_year": [
+      {
+        "fiscal_year": 2026,
+        "agency_budgetary_resources": 60020146129.32,
+        "agency_total_obligated": 16121111870.89,
+        "agency_total_outlayed": 15849234238.45,
+        "total_budgetary_resources": 11789916426964.1,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 9545380298.14
+          },
+          {
+            "period": 3,
+            "obligated": 16121111870.89
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2025,
+        "agency_budgetary_resources": 79483838493.75,
+        "agency_total_obligated": 50454183477.6,
+        "agency_total_outlayed": 52345326420.1,
+        "total_budgetary_resources": 13263700405307.76,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 8272498996.8
+          },
+          {
+            "period": 3,
+            "obligated": 12861390325.69
+          },
+          {
+            "period": 4,
+            "obligated": 16777367156.36
+          },
+          {
+            "period": 5,
+            "obligated": 20472959026.25
+          },
+          {
+            "period": 6,
+            "obligated": 23543169654.94
+          },
+          {
+            "period": 7,
+            "obligated": 26727665810.09
+          },
+          {
+            "period": 8,
+            "obligated": 31391866090.79
+          },
+          {
+            "period": 9,
+            "obligated": 35512816581.57
+          },
+          {
+            "period": 10,
+            "obligated": 39676026699.76
+          },
+          {
+            "period": 11,
+            "obligated": 43166986453.33
+          },
+          {
+            "period": 12,
+            "obligated": 50454183477.6
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2024,
+        "agency_budgetary_resources": 67061299651.16,
+        "agency_total_obligated": 52006258903.46,
+        "agency_total_outlayed": 52385538082.59,
+        "total_budgetary_resources": 12248550270454.0,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 7970378221.79
+          },
+          {
+            "period": 3,
+            "obligated": 11384300486.11
+          },
+          {
+            "period": 4,
+            "obligated": 14716943289.98
+          },
+          {
+            "period": 5,
+            "obligated": 18216980030.19
+          },
+          {
+            "period": 6,
+            "obligated": 22135727590.26
+          },
+          {
+            "period": 7,
+            "obligated": 26794546170.52
+          },
+          {
+            "period": 8,
+            "obligated": 31616794737.19
+          },
+          {
+            "period": 9,
+            "obligated": 35168735256.78
+          },
+          {
+            "period": 10,
+            "obligated": 39335805602.88
+          },
+          {
+            "period": 11,
+            "obligated": 43629727132.63
+          },
+          {
+            "period": 12,
+            "obligated": 52006258903.46
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2023,
+        "agency_budgetary_resources": 69198013003.84,
+        "agency_total_obligated": 55576215204.85,
+        "agency_total_outlayed": 51449631893.11,
+        "total_budgetary_resources": 11889863708699.81,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 7243397908.47
+          },
+          {
+            "period": 3,
+            "obligated": 11138626176.08
+          },
+          {
+            "period": 4,
+            "obligated": 14754710989.42
+          },
+          {
+            "period": 5,
+            "obligated": 19414651759.71
+          },
+          {
+            "period": 6,
+            "obligated": 26289823765.52
+          },
+          {
+            "period": 7,
+            "obligated": 29860267456.17
+          },
+          {
+            "period": 8,
+            "obligated": 33635852343.62
+          },
+          {
+            "period": 9,
+            "obligated": 36959213642.86
+          },
+          {
+            "period": 10,
+            "obligated": 40505382463.19
+          },
+          {
+            "period": 11,
+            "obligated": 46863765449.46
+          },
+          {
+            "period": 12,
+            "obligated": 55576215204.85
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2022,
+        "agency_budgetary_resources": 59259622793.72,
+        "agency_total_obligated": 49684118644.77,
+        "agency_total_outlayed": 45873755604.44,
+        "total_budgetary_resources": 11409814941613.59,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 6249519691.19
+          },
+          {
+            "period": 3,
+            "obligated": 11502975757.45
+          },
+          {
+            "period": 4,
+            "obligated": 14647260425.42
+          },
+          {
+            "period": 5,
+            "obligated": 17488215220.86
+          },
+          {
+            "period": 6,
+            "obligated": 21224505716.56
+          },
+          {
+            "period": 7,
+            "obligated": 25408777953.94
+          },
+          {
+            "period": 8,
+            "obligated": 29531295110.02
+          },
+          {
+            "period": 9,
+            "obligated": 33457702727.62
+          },
+          {
+            "period": 10,
+            "obligated": 36850409526.6
+          },
+          {
+            "period": 11,
+            "obligated": 42548987953.64
+          },
+          {
+            "period": 12,
+            "obligated": 49684118644.77
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2021,
+        "agency_budgetary_resources": 54641326845.54,
+        "agency_total_obligated": 44310527077.8,
+        "agency_total_outlayed": 46156170622.97,
+        "total_budgetary_resources": 12219096866505.09,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 7661825047.32
+          },
+          {
+            "period": 6,
+            "obligated": 21672825108.73
+          },
+          {
+            "period": 9,
+            "obligated": 25368168193.97
+          },
+          {
+            "period": 12,
+            "obligated": 44310527077.8
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2020,
+        "agency_budgetary_resources": 55475101557.58,
+        "agency_total_obligated": 47420465932.45,
+        "agency_total_outlayed": 46274434444.13,
+        "total_budgetary_resources": 11461079028211.95,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 8194614222.09
+          },
+          {
+            "period": 6,
+            "obligated": 20311232236.41
+          },
+          {
+            "period": 9,
+            "obligated": 31819778577.37
+          },
+          {
+            "period": 12,
+            "obligated": 47420465932.45
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2019,
+        "agency_budgetary_resources": 55761272144.31,
+        "agency_total_obligated": 42341175319.89,
+        "agency_total_outlayed": 42150108057.23,
+        "total_budgetary_resources": 7985842464180.6,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 9253856459.42
+          },
+          {
+            "period": 6,
+            "obligated": 18175478380.26
+          },
+          {
+            "period": 9,
+            "obligated": 27423987833.24
+          },
+          {
+            "period": 12,
+            "obligated": 42341175319.89
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2018,
+        "agency_budgetary_resources": 55660923546.73,
+        "agency_total_obligated": 39970356916.65,
+        "agency_total_outlayed": 38018802348.21,
+        "total_budgetary_resources": 7593875408547.67,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 8457974370.3
+          },
+          {
+            "period": 6,
+            "obligated": 17102192319.95
+          },
+          {
+            "period": 9,
+            "obligated": 26024835920.18
+          },
+          {
+            "period": 12,
+            "obligated": 39970356916.65
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2017,
+        "agency_budgetary_resources": 53462142734.57,
+        "agency_total_obligated": 41400905158.91,
+        "agency_total_outlayed": 39698016632.15,
+        "total_budgetary_resources": 7158037155046.72,
+        "agency_obligation_by_period": [
+          {
+            "period": 6,
+            "obligated": 17894508209.44
+          },
+          {
+            "period": 9,
+            "obligated": 27811465428.83
+          },
+          {
+            "period": 12,
+            "obligated": 41400905158.91
+          }
+        ]
+      }
+    ],
+    "messages": []
+  },
+  "DHS_FY2003": {
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  "DHS_FY2004": {
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  "DHS_FY2005": {
+    "toptier_code": "070",
+    "agency_data_by_year": [
+      {
+        "fiscal_year": 2026,
+        "agency_budgetary_resources": 349537498049.36,
+        "agency_total_obligated": 37756573518.04,
+        "agency_total_outlayed": 31146134992.27,
+        "total_budgetary_resources": 11789916426964.1,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 18519563536.08
+          },
+          {
+            "period": 3,
+            "obligated": 37756573518.04
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2025,
+        "agency_budgetary_resources": 396844094127.43,
+        "agency_total_obligated": 171203552614.18,
+        "agency_total_outlayed": 155738644383.29,
+        "total_budgetary_resources": 13263700405307.76,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 37649535903.4
+          },
+          {
+            "period": 3,
+            "obligated": 52425436979.32
+          },
+          {
+            "period": 4,
+            "obligated": 73390707062.05
+          },
+          {
+            "period": 5,
+            "obligated": 86483515178.14
+          },
+          {
+            "period": 6,
+            "obligated": 92557672770.43
+          },
+          {
+            "period": 7,
+            "obligated": 104940139015.41
+          },
+          {
+            "period": 8,
+            "obligated": 114269235021.7
+          },
+          {
+            "period": 9,
+            "obligated": 122540649051.49
+          },
+          {
+            "period": 10,
+            "obligated": 130318540814.23
+          },
+          {
+            "period": 11,
+            "obligated": 141483451173.74
+          },
+          {
+            "period": 12,
+            "obligated": 171203552614.18
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2024,
+        "agency_budgetary_resources": 176184894983.32,
+        "agency_total_obligated": 140625065483.12,
+        "agency_total_outlayed": 127339045876.54,
+        "total_budgetary_resources": 12248550270454.0,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 20568701756.9
+          },
+          {
+            "period": 3,
+            "obligated": 31186915257.5
+          },
+          {
+            "period": 4,
+            "obligated": 41030204582.75
+          },
+          {
+            "period": 5,
+            "obligated": 51656189049.05
+          },
+          {
+            "period": 6,
+            "obligated": 61731772210.85
+          },
+          {
+            "period": 7,
+            "obligated": 74146542178.88
+          },
+          {
+            "period": 8,
+            "obligated": 87401687672.71
+          },
+          {
+            "period": 9,
+            "obligated": 97576849320.32
+          },
+          {
+            "period": 10,
+            "obligated": 111714597061.75
+          },
+          {
+            "period": 11,
+            "obligated": 121987904672.29
+          },
+          {
+            "period": 12,
+            "obligated": 140625065483.12
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2023,
+        "agency_budgetary_resources": 169379397503.14,
+        "agency_total_obligated": 133715424269.44,
+        "agency_total_outlayed": 121862334725.68,
+        "total_budgetary_resources": 11889863708699.81,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 17291798544.45
+          },
+          {
+            "period": 3,
+            "obligated": 33063755400.38
+          },
+          {
+            "period": 4,
+            "obligated": 36713186317.7
+          },
+          {
+            "period": 5,
+            "obligated": 46768079030.55
+          },
+          {
+            "period": 6,
+            "obligated": 60925793967.79
+          },
+          {
+            "period": 7,
+            "obligated": 69951735997.91
+          },
+          {
+            "period": 8,
+            "obligated": 82878218142.87
+          },
+          {
+            "period": 9,
+            "obligated": 93779721554.95
+          },
+          {
+            "period": 10,
+            "obligated": 108113560937.22
+          },
+          {
+            "period": 11,
+            "obligated": 116616870217.12
+          },
+          {
+            "period": 12,
+            "obligated": 133715424269.44
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2022,
+        "agency_budgetary_resources": 173773033022.88,
+        "agency_total_obligated": 133188239439.91,
+        "agency_total_outlayed": 111915040054.54,
+        "total_budgetary_resources": 11409814941613.59,
+        "agency_obligation_by_period": [
+          {
+            "period": 2,
+            "obligated": 14562890543.6
+          },
+          {
+            "period": 3,
+            "obligated": 28646091328.57
+          },
+          {
+            "period": 4,
+            "obligated": 38982592985.83
+          },
+          {
+            "period": 5,
+            "obligated": 47405104067.14
+          },
+          {
+            "period": 6,
+            "obligated": 57305094807.41
+          },
+          {
+            "period": 7,
+            "obligated": 67022157898.03
+          },
+          {
+            "period": 8,
+            "obligated": 78110247128.34
+          },
+          {
+            "period": 9,
+            "obligated": 87152435731.47
+          },
+          {
+            "period": 10,
+            "obligated": 98961118953.38
+          },
+          {
+            "period": 11,
+            "obligated": 112054940271.71
+          },
+          {
+            "period": 12,
+            "obligated": 133188239439.91
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2021,
+        "agency_budgetary_resources": 197908779587.72,
+        "agency_total_obligated": 142035912465.86,
+        "agency_total_outlayed": 121034292621.16,
+        "total_budgetary_resources": 12219096866505.09,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 22072955876.34
+          },
+          {
+            "period": 6,
+            "obligated": 63341415638.25
+          },
+          {
+            "period": 9,
+            "obligated": 99924715850.53
+          },
+          {
+            "period": 12,
+            "obligated": 142035912465.86
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2020,
+        "agency_budgetary_resources": 195550298506.0,
+        "agency_total_obligated": 160365575018.45,
+        "agency_total_outlayed": 120906259406.81,
+        "total_budgetary_resources": 11461079028211.95,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 17188384266.45
+          },
+          {
+            "period": 6,
+            "obligated": 44143415055.68
+          },
+          {
+            "period": 9,
+            "obligated": 73905801769.92
+          },
+          {
+            "period": 12,
+            "obligated": 160365575018.45
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2019,
+        "agency_budgetary_resources": 139231463744.96,
+        "agency_total_obligated": 91630525352.5,
+        "agency_total_outlayed": 84414689456.15,
+        "total_budgetary_resources": 7985842464180.6,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 21548235890.74
+          },
+          {
+            "period": 6,
+            "obligated": 39394200595.87
+          },
+          {
+            "period": 9,
+            "obligated": 63188135634.95
+          },
+          {
+            "period": 12,
+            "obligated": 91630525352.5
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2018,
+        "agency_budgetary_resources": 153039419861.89,
+        "agency_total_obligated": 106886283226.15,
+        "agency_total_outlayed": 95603304195.69,
+        "total_budgetary_resources": 7593875408547.67,
+        "agency_obligation_by_period": [
+          {
+            "period": 3,
+            "obligated": 33415119128.09
+          },
+          {
+            "period": 6,
+            "obligated": 54832627140.19
+          },
+          {
+            "period": 9,
+            "obligated": 76379611422.16
+          },
+          {
+            "period": 12,
+            "obligated": 106886283226.15
+          }
+        ]
+      },
+      {
+        "fiscal_year": 2017,
+        "agency_budgetary_resources": 101176701717.16,
+        "agency_total_obligated": 82181642249.31,
+        "agency_total_outlayed": 75144058726.11,
+        "total_budgetary_resources": 7158037155046.72,
+        "agency_obligation_by_period": [
+          {
+            "period": 6,
+            "obligated": 33540897653.82
+          },
+          {
+            "period": 9,
+            "obligated": 50327829610.59
+          },
+          {
+            "period": 12,
+            "obligated": 82181642249.31
+          }
+        ]
+      }
+    ],
+    "messages": []
+  }
+}

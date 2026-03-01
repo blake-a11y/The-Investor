@@ -1,0 +1,8 @@
+{
+  "Department of Homeland Security": {
+    "error": "404 Client Error: Not Found for url: https://api.usaspending.gov/api/v2/search/spending_by_category/"
+  },
+  "Department of Justice": {
+    "error": "404 Client Error: Not Found for url: https://api.usaspending.gov/api/v2/search/spending_by_category/"
+  }
+}
