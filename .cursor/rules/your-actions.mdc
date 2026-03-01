@@ -1,0 +1,22 @@
+---
+description: Always end Composer responses with a "Your actions" section
+alwaysApply: true
+---
+
+# Your Actions (Required)
+
+**Every Composer Agent response must end with a "Your actions" section.**
+
+Format:
+
+## Your actions
+
+| # | Action |
+|---|--------|
+| 1 | [Next concrete step for the user] |
+| 2 | [Another step, or "None" if complete] |
+
+- Keep 1–5 items, in order of priority
+- Be specific and actionable (files to edit, commands to run, decisions to make)
+- If the task is fully done, say "No further actions — task complete"
+- Reference exact paths, commands, or prompts when relevant
