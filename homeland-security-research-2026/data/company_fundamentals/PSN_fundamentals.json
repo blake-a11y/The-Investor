@@ -1,0 +1,134 @@
+{
+  "ticker": "PSN",
+  "company_name": "PARSONS CORP",
+  "as_of_utc": "2026-03-01T16:59:19.088440+00:00",
+  "sources": [
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000275880.json",
+      "timestamp_utc": "2026-03-01T16:59:19.088440+00:00"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220000275880%22&dateRange=custom&startdt=2024-01-01&forms=10-K",
+      "timestamp_utc": "2026-03-01T16:59:19.088440+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/275880/000119312526045495/psn-20251231.htm",
+      "timestamp_utc": "2026-03-01T16:59:19.088440+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000275880.json",
+      "timestamp_utc": "2026-03-01T16:59:19.088440+00:00"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/PSN",
+      "timestamp_utc": "2026-03-01T16:59:19.088440+00:00"
+    },
+    {
+      "url": "https://www.macrotrends.net/stocks/charts/psn/psn/ev-ebitda",
+      "timestamp_utc": "2026-03-01T16:59:19.088440+00:00"
+    }
+  ],
+  "data_quality_flags": [
+    "ev_ebitda_5y_avg_unavailable"
+  ],
+  "latest_10k": {
+    "submissions_url": "https://data.sec.gov/submissions/CIK0000275880.json",
+    "search_url": "https://efts.sec.gov/LATEST/search-index?q=%220000275880%22&dateRange=custom&startdt=2024-01-01&forms=10-K",
+    "filing_date": "2026-02-11",
+    "accession_number": "0001193125-26-045495",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/275880/000119312526045495/psn-20251231.htm"
+  },
+  "cik": "0000275880",
+  "total_revenue_ttm_m": 6364.245,
+  "federal_rev_pct": 0.045279999999999994,
+  "contract_backlog_m": 8700.0,
+  "gross_margin": null,
+  "operating_margin": 0.06569105997647796,
+  "fcf_m": 478.382,
+  "fcf_margin": 0.07516712508710774,
+  "ev_ebitda_current": 15.115,
+  "ev_ebitda_5yr_avg": null,
+  "pe_current": 30.0,
+  "current_price": 66.0,
+  "shares_outstanding_m": 105.831019,
+  "market_cap_m": 7028.246528,
+  "revenue_cagr_5y": 0.45851442207841275,
+  "annual_revenue_series_usd": [
+    [
+      "2017-12-29",
+      3017011000.0
+    ],
+    [
+      "2018-03-30",
+      754679000.0
+    ],
+    [
+      "2018-06-29",
+      900732000.0
+    ],
+    [
+      "2018-09-28",
+      976157000.0
+    ],
+    [
+      "2018-12-31",
+      928940000.0
+    ],
+    [
+      "2019-03-31",
+      904405000.0
+    ],
+    [
+      "2019-06-30",
+      989742000.0
+    ],
+    [
+      "2019-09-30",
+      1023277000.0
+    ],
+    [
+      "2019-12-31",
+      1037388000.0
+    ],
+    [
+      "2020-03-31",
+      970993000.0
+    ],
+    [
+      "2020-06-30",
+      979459000.0
+    ],
+    [
+      "2020-09-30",
+      1004236000.0
+    ],
+    [
+      "2020-12-31",
+      964258000.0
+    ],
+    [
+      "2021-12-31",
+      3660771000.0
+    ],
+    [
+      "2022-12-31",
+      4195272000.0
+    ],
+    [
+      "2023-12-31",
+      5442749000.0
+    ],
+    [
+      "2024-03-31",
+      1535676000.0
+    ],
+    [
+      "2024-12-31",
+      1734317000.0
+    ],
+    [
+      "2025-12-31",
+      6364245000.0
+    ]
+  ]
+}

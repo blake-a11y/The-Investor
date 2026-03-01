@@ -1,0 +1,146 @@
+{
+  "ticker": "MSI",
+  "company_name": "Motorola Solutions, Inc.",
+  "as_of_utc": "2026-03-01T16:58:47.400983+00:00",
+  "sources": [
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000068505.json",
+      "timestamp_utc": "2026-03-01T16:58:47.400983+00:00"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220000068505%22&dateRange=custom&startdt=2024-01-01&forms=10-K",
+      "timestamp_utc": "2026-03-01T16:58:47.400983+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/68505/000006850526000010/msi-20251231.htm",
+      "timestamp_utc": "2026-03-01T16:58:47.400983+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000068505.json",
+      "timestamp_utc": "2026-03-01T16:58:47.400983+00:00"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/MSI",
+      "timestamp_utc": "2026-03-01T16:58:47.400983+00:00"
+    },
+    {
+      "url": "https://www.macrotrends.net/stocks/charts/msi/msi/ev-ebitda",
+      "timestamp_utc": "2026-03-01T16:58:47.400983+00:00"
+    }
+  ],
+  "data_quality_flags": [
+    "ev_ebitda_5y_avg_unavailable"
+  ],
+  "latest_10k": {
+    "submissions_url": "https://data.sec.gov/submissions/CIK0000068505.json",
+    "search_url": "https://efts.sec.gov/LATEST/search-index?q=%220000068505%22&dateRange=custom&startdt=2024-01-01&forms=10-K",
+    "filing_date": "2026-02-12",
+    "accession_number": "0000068505-26-000010",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/68505/000006850526000010/msi-20251231.htm"
+  },
+  "cik": "0000068505",
+  "total_revenue_ttm_m": 11682.0,
+  "federal_rev_pct": 0.21,
+  "contract_backlog_m": 15700.0,
+  "gross_margin": 0.5166067454203047,
+  "operating_margin": 0.25577812018489987,
+  "fcf_m": 2837.0,
+  "fcf_margin": 0.2428522513268276,
+  "ev_ebitda_current": 25.123,
+  "ev_ebitda_5yr_avg": null,
+  "pe_current": 37.88374,
+  "current_price": 482.260009765625,
+  "shares_outstanding_m": 165.658912,
+  "market_cap_m": 80322.813952,
+  "revenue_cagr_5y": 0.3873420608614262,
+  "annual_revenue_series_usd": [
+    [
+      "2016-12-31",
+      6038000000.0
+    ],
+    [
+      "2017-04-01",
+      1281000000.0
+    ],
+    [
+      "2017-07-01",
+      1497000000.0
+    ],
+    [
+      "2017-09-30",
+      1645000000.0
+    ],
+    [
+      "2017-12-31",
+      1957000000.0
+    ],
+    [
+      "2018-03-31",
+      1468000000.0
+    ],
+    [
+      "2018-06-30",
+      1760000000.0
+    ],
+    [
+      "2018-09-29",
+      1862000000.0
+    ],
+    [
+      "2018-12-31",
+      2254000000.0
+    ],
+    [
+      "2019-03-30",
+      1657000000.0
+    ],
+    [
+      "2019-06-29",
+      1860000000.0
+    ],
+    [
+      "2019-09-28",
+      1994000000.0
+    ],
+    [
+      "2019-12-31",
+      2377000000.0
+    ],
+    [
+      "2020-03-28",
+      1655000000.0
+    ],
+    [
+      "2020-06-27",
+      1618000000.0
+    ],
+    [
+      "2020-09-26",
+      1868000000.0
+    ],
+    [
+      "2020-12-31",
+      2273000000.0
+    ],
+    [
+      "2021-12-31",
+      8171000000.0
+    ],
+    [
+      "2022-12-31",
+      9112000000.0
+    ],
+    [
+      "2023-12-31",
+      9978000000.0
+    ],
+    [
+      "2024-12-31",
+      10817000000.0
+    ],
+    [
+      "2025-12-31",
+      11682000000.0
+    ]
+  ]
+}

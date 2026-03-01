@@ -1,0 +1,159 @@
+{
+  "ticker": "MSA",
+  "company_name": "MSA Safety Inc",
+  "as_of_utc": "2026-03-01T16:59:14.205116+00:00",
+  "sources": [
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000066570.json",
+      "timestamp_utc": "2026-03-01T16:59:14.205116+00:00"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220000066570%22&dateRange=custom&startdt=2024-01-01&forms=10-K",
+      "timestamp_utc": "2026-03-01T16:59:14.205116+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/66570/000006657026000005/msa-20251231.htm",
+      "timestamp_utc": "2026-03-01T16:59:14.205116+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000066570.json",
+      "timestamp_utc": "2026-03-01T16:59:14.205116+00:00"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/MSA",
+      "timestamp_utc": "2026-03-01T16:59:14.205116+00:00"
+    },
+    {
+      "url": "https://www.macrotrends.net/stocks/charts/msa/msa/ev-ebitda",
+      "timestamp_utc": "2026-03-01T16:59:14.205116+00:00"
+    }
+  ],
+  "data_quality_flags": [
+    "backlog_estimated_90pct_of_revenue",
+    "ev_ebitda_5y_avg_unavailable"
+  ],
+  "latest_10k": {
+    "submissions_url": "https://data.sec.gov/submissions/CIK0000066570.json",
+    "search_url": "https://efts.sec.gov/LATEST/search-index?q=%220000066570%22&dateRange=custom&startdt=2024-01-01&forms=10-K",
+    "filing_date": "2026-02-12",
+    "accession_number": "0000066570-26-000005",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/66570/000006657026000005/msa-20251231.htm"
+  },
+  "cik": "0000066570",
+  "total_revenue_ttm_m": 510.913,
+  "federal_rev_pct": 0.2,
+  "contract_backlog_m": 459.8217,
+  "gross_margin": 0.46855726904580625,
+  "operating_margin": 0.7277520830356636,
+  "fcf_m": 432.305,
+  "fcf_margin": 0.8461421024714579,
+  "ev_ebitda_current": 16.31,
+  "ev_ebitda_5yr_avg": null,
+  "pe_current": 27.561354,
+  "current_price": 195.41000366210938,
+  "shares_outstanding_m": 38.774722,
+  "market_cap_m": 7650.704896,
+  "revenue_cagr_5y": 0.05644658898690347,
+  "annual_revenue_series_usd": [
+    [
+      "2019-12-31",
+      1401981000.0
+    ],
+    [
+      "2020-03-31",
+      341145000.0
+    ],
+    [
+      "2020-06-30",
+      314438000.0
+    ],
+    [
+      "2020-09-30",
+      304392000.0
+    ],
+    [
+      "2020-12-31",
+      388248000.0
+    ],
+    [
+      "2021-03-31",
+      308428000.0
+    ],
+    [
+      "2021-06-30",
+      341289000.0
+    ],
+    [
+      "2021-09-30",
+      340197000.0
+    ],
+    [
+      "2021-12-31",
+      410268000.0
+    ],
+    [
+      "2022-03-31",
+      330692000.0
+    ],
+    [
+      "2022-06-30",
+      372313000.0
+    ],
+    [
+      "2022-09-30",
+      381694000.0
+    ],
+    [
+      "2022-12-31",
+      443254000.0
+    ],
+    [
+      "2023-03-31",
+      398262000.0
+    ],
+    [
+      "2023-06-30",
+      447299000.0
+    ],
+    [
+      "2023-09-30",
+      446728000.0
+    ],
+    [
+      "2023-12-31",
+      495358000.0
+    ],
+    [
+      "2024-03-31",
+      413302000.0
+    ],
+    [
+      "2024-06-30",
+      462463000.0
+    ],
+    [
+      "2024-09-30",
+      432679000.0
+    ],
+    [
+      "2024-12-31",
+      499696000.0
+    ],
+    [
+      "2025-03-31",
+      421340000.0
+    ],
+    [
+      "2025-06-30",
+      474116000.0
+    ],
+    [
+      "2025-09-30",
+      468445000.0
+    ],
+    [
+      "2025-12-31",
+      510913000.0
+    ]
+  ]
+}

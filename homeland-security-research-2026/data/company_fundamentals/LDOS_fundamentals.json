@@ -1,0 +1,98 @@
+{
+  "ticker": "LDOS",
+  "company_name": "Leidos Holdings, Inc.",
+  "as_of_utc": "2026-03-01T16:58:58.494239+00:00",
+  "sources": [
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001336920.json",
+      "timestamp_utc": "2026-03-01T16:58:58.494239+00:00"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001336920%22&dateRange=custom&startdt=2024-01-01&forms=10-K",
+      "timestamp_utc": "2026-03-01T16:58:58.494239+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000030/ldos-20260102.htm",
+      "timestamp_utc": "2026-03-01T16:58:58.494239+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001336920.json",
+      "timestamp_utc": "2026-03-01T16:58:58.494239+00:00"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/LDOS",
+      "timestamp_utc": "2026-03-01T16:58:58.494239+00:00"
+    },
+    {
+      "url": "https://www.macrotrends.net/stocks/charts/ldos/ldos/ev-ebitda",
+      "timestamp_utc": "2026-03-01T16:58:58.494239+00:00"
+    }
+  ],
+  "data_quality_flags": [
+    "ev_ebitda_5y_avg_unavailable"
+  ],
+  "latest_10k": {
+    "submissions_url": "https://data.sec.gov/submissions/CIK0001336920.json",
+    "search_url": "https://efts.sec.gov/LATEST/search-index?q=%220001336920%22&dateRange=custom&startdt=2024-01-01&forms=10-K",
+    "filing_date": "2026-02-17",
+    "accession_number": "0001336920-26-000030",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000030/ldos-20260102.htm"
+  },
+  "cik": "0001336920",
+  "total_revenue_ttm_m": 17107.0,
+  "federal_rev_pct": 0.87,
+  "contract_backlog_m": 49000.0,
+  "gross_margin": 0.1772373882036593,
+  "operating_margin": 0.12328286666276962,
+  "fcf_m": 1871.0,
+  "fcf_margin": 0.10937043315601801,
+  "ev_ebitda_current": 11.051,
+  "ev_ebitda_5yr_avg": null,
+  "pe_current": 15.718133,
+  "current_price": 175.10000610351562,
+  "shares_outstanding_m": 126.392684,
+  "market_cap_m": 22387.441664,
+  "revenue_cagr_5y": 0.04669098479795197,
+  "annual_revenue_series_usd": [
+    [
+      "2016-12-30",
+      7043000000.0
+    ],
+    [
+      "2017-12-29",
+      10170000000.0
+    ],
+    [
+      "2018-12-28",
+      10194000000.0
+    ],
+    [
+      "2020-01-03",
+      10976000000.0
+    ],
+    [
+      "2021-01-01",
+      12197000000.0
+    ],
+    [
+      "2021-12-31",
+      13617000000.0
+    ],
+    [
+      "2022-12-30",
+      14287000000.0
+    ],
+    [
+      "2023-12-29",
+      15339000000.0
+    ],
+    [
+      "2025-01-03",
+      16576000000.0
+    ],
+    [
+      "2026-01-02",
+      17107000000.0
+    ]
+  ]
+}

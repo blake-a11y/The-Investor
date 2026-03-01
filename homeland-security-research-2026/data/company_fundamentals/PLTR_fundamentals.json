@@ -1,0 +1,91 @@
+{
+  "ticker": "PLTR",
+  "company_name": "Palantir Technologies Inc.",
+  "as_of_utc": "2026-03-01T16:58:52.551056+00:00",
+  "sources": [
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001321655.json",
+      "timestamp_utc": "2026-03-01T16:58:52.551056+00:00"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220001321655%22&dateRange=custom&startdt=2024-01-01&forms=10-K",
+      "timestamp_utc": "2026-03-01T16:58:52.551056+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+      "timestamp_utc": "2026-03-01T16:58:52.551056+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001321655.json",
+      "timestamp_utc": "2026-03-01T16:58:52.551056+00:00"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/PLTR",
+      "timestamp_utc": "2026-03-01T16:58:52.551056+00:00"
+    },
+    {
+      "url": "https://www.macrotrends.net/stocks/charts/pltr/pltr/ev-ebitda",
+      "timestamp_utc": "2026-03-01T16:58:52.551056+00:00"
+    }
+  ],
+  "data_quality_flags": [
+    "backlog_estimated_90pct_of_revenue",
+    "ev_ebitda_5y_avg_unavailable"
+  ],
+  "latest_10k": {
+    "submissions_url": "https://data.sec.gov/submissions/CIK0001321655.json",
+    "search_url": "https://efts.sec.gov/LATEST/search-index?q=%220001321655%22&dateRange=custom&startdt=2024-01-01&forms=10-K",
+    "filing_date": "2026-02-17",
+    "accession_number": "0001321655-26-000011",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm"
+  },
+  "cik": "0001321655",
+  "total_revenue_ttm_m": 4475.446,
+  "federal_rev_pct": 0.46,
+  "contract_backlog_m": 4027.9014,
+  "gross_margin": 0.8236651721415028,
+  "operating_margin": 0.3159495165398041,
+  "fcf_m": 2168.355,
+  "fcf_margin": 0.4845003157227235,
+  "ev_ebitda_current": 223.077,
+  "ev_ebitda_5yr_avg": null,
+  "pe_current": 217.76192,
+  "current_price": 137.19000244140625,
+  "shares_outstanding_m": 2291.470751,
+  "market_cap_m": 328113.979392,
+  "revenue_cagr_5y": 0.3257731580149814,
+  "annual_revenue_series_usd": [
+    [
+      "2018-12-31",
+      595409000.0
+    ],
+    [
+      "2019-12-31",
+      742555000.0
+    ],
+    [
+      "2020-12-31",
+      1092673000.0
+    ],
+    [
+      "2021-12-31",
+      1541889000.0
+    ],
+    [
+      "2022-12-31",
+      1905871000.0
+    ],
+    [
+      "2023-12-31",
+      2225012000.0
+    ],
+    [
+      "2024-12-31",
+      2865507000.0
+    ],
+    [
+      "2025-12-31",
+      4475446000.0
+    ]
+  ]
+}

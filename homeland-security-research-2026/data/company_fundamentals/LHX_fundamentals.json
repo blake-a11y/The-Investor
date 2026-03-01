@@ -1,0 +1,102 @@
+{
+  "ticker": "LHX",
+  "company_name": "L3HARRIS TECHNOLOGIES, INC. /DE/",
+  "as_of_utc": "2026-03-01T16:59:24.783002+00:00",
+  "sources": [
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000202058.json",
+      "timestamp_utc": "2026-03-01T16:59:24.783002+00:00"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%220000202058%22&dateRange=custom&startdt=2024-01-01&forms=10-K",
+      "timestamp_utc": "2026-03-01T16:59:24.783002+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000015/hrs-20260102.htm",
+      "timestamp_utc": "2026-03-01T16:59:24.783002+00:00"
+    },
+    {
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000202058.json",
+      "timestamp_utc": "2026-03-01T16:59:24.783002+00:00"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/LHX",
+      "timestamp_utc": "2026-03-01T16:59:24.783002+00:00"
+    },
+    {
+      "url": "https://www.macrotrends.net/stocks/charts/lhx/lhx/ev-ebitda",
+      "timestamp_utc": "2026-03-01T16:59:24.783002+00:00"
+    }
+  ],
+  "data_quality_flags": [
+    "ev_ebitda_5y_avg_unavailable"
+  ],
+  "latest_10k": {
+    "submissions_url": "https://data.sec.gov/submissions/CIK0000202058.json",
+    "search_url": "https://efts.sec.gov/LATEST/search-index?q=%220000202058%22&dateRange=custom&startdt=2024-01-01&forms=10-K",
+    "filing_date": "2026-02-12",
+    "accession_number": "0000202058-26-000015",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000015/hrs-20260102.htm"
+  },
+  "cik": "0000202058",
+  "total_revenue_ttm_m": 21865.0,
+  "federal_rev_pct": 0.75,
+  "contract_backlog_m": 38700.0,
+  "gross_margin": 0.024340269837640063,
+  "operating_margin": 0.09650125771781386,
+  "fcf_m": 3530.0,
+  "fcf_margin": 0.16144523210610565,
+  "ev_ebitda_current": 19.52,
+  "ev_ebitda_5yr_avg": null,
+  "pe_current": 42.73623,
+  "current_price": 364.5400085449219,
+  "shares_outstanding_m": 186.776263,
+  "market_cap_m": 68188.246016,
+  "revenue_cagr_5y": 0.041831793764659286,
+  "annual_revenue_series_usd": [
+    [
+      "2017-06-30",
+      5897000000.0
+    ],
+    [
+      "2018-06-29",
+      6168000000.0
+    ],
+    [
+      "2018-12-28",
+      3208000000.0
+    ],
+    [
+      "2019-06-28",
+      6801000000.0
+    ],
+    [
+      "2020-01-03",
+      9263000000.0
+    ],
+    [
+      "2021-01-01",
+      18194000000.0
+    ],
+    [
+      "2021-12-31",
+      17814000000.0
+    ],
+    [
+      "2022-12-30",
+      17062000000.0
+    ],
+    [
+      "2023-12-29",
+      19419000000.0
+    ],
+    [
+      "2025-01-03",
+      21325000000.0
+    ],
+    [
+      "2026-01-02",
+      21865000000.0
+    ]
+  ]
+}
