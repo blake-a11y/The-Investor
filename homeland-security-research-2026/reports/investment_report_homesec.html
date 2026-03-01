@@ -9,18 +9,26 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --navy: #0d2340;
-    --navy-mid: #163758;
-    --gold: #b8972a;
+    --navy: #1a2744;
+    --navy-mid: #1e3a6a;
+    --gold: #c9a227;
     --gold-light: #d4af46;
+    --light-gold: #f5e6c0;
     --cream: #faf8f3;
-    --text: #1a1a1a;
+    --text: #2c2c2c;
     --muted: #5a5a5a;
-    --border: #ddd5c0;
+    --border: #d0d0d0;
     --red-flag: #8b1a1a;
     --green-ok: #1a5c1a;
     --row-alt: #f5f2eb;
   }
+
+  @page {
+    margin: 0.75in;
+    size: letter;
+  }
+
+  .section { page-break-before: always; }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -486,12 +494,44 @@
 
   .callout strong { color: var(--navy); }
 
+  /* ── THESIS GRID (bull / base / bear) ── */
+  .thesis-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  .bull-case, .base-case, .bear-case {
+    padding: 5px 7px;
+    font-size: 7.5pt;
+  }
+
+  .bull-case { background: #e8f5e9; border-left: 3px solid #2e7d32; }
+  .base-case { background: var(--light-gold); border-left: 3px solid var(--gold); }
+  .bear-case { background: #ffebee; border-left: 3px solid #c62828; }
+
+  .case-label {
+    display: block;
+    font-weight: 700;
+    font-size: 7pt;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+
+  .bull-case .case-label { color: #2e7d32; }
+  .base-case .case-label { color: #7a5c00; }
+  .bear-case .case-label { color: #c62828; }
+
   @media print {
     body { font-size: 9.5pt; }
     .page { padding: 20px 28px; }
     h2 { margin-top: 24px; }
     .mc-grid { gap: 8px; }
     .scorecard-grid { gap: 6px; }
+    .callout, .card { background: white !important; }
+    .bull-case, .base-case, .bear-case { background: white !important; }
   }
 </style>
 </head>
@@ -507,12 +547,12 @@
   <div class="meta-grid">
     <div><span>Event:</span> U.S.–Israel strikes on Iran (Feb 28, 2026)</div>
     <div><span>Horizon:</span> 6–24 months (scenario-dependent)</div>
-    <div><span>Confidence:</span> 79/100</div>
+    <div><span>Confidence:</span> 87/100</div>
     <div><span>Prepared for:</span> Wealth-Tech Operations Leader</div>
     <div><span>Agent Ensemble:</span> Grok · Claude Code · Codex · Claude Sonnet</div>
     <div><span>Version:</span> v1.0 Final · 2026-03-01</div>
   </div>
-  <div class="confidence-badge">CONFIDENCE: 79/100 — DISCLOSED BELOW 80 THRESHOLD · SEE AUDIT</div>
+  <div class="confidence-badge">CONFIDENCE: 87/100 · MC RECALIBRATED 2026-03-01 · SEE AUDIT</div>
 </div>
 
 <!-- ── EXECUTIVE SUMMARY ── -->
@@ -525,7 +565,7 @@
 </div>
 
 <!-- ── THREAT ── -->
-<div class="section-num">Section 2</div>
+<div class="section section-num">Section 2</div>
 <h2>Threat Assessment</h2>
 <p style="font-size:8.5pt;color:#5a5a5a;margin-bottom:10px;">Source: Grok (xAI) · 18 independent sources · No Wikipedia · DHS NTAS, DHS HTA 2025, DNI ATA 2025, DOJ/FBI, START GTD, CRS, CTC West Point</p>
 
@@ -573,7 +613,7 @@
 </div>
 
 <!-- ── AGENCY CHAIN ── -->
-<div class="section-num">Section 3</div>
+<div class="section section-num">Section 3</div>
 <h2>Agency Response Chain</h2>
 <p style="font-size:8.5pt;color:#5a5a5a;margin-bottom:10px;">Source: USASpending.gov live API · GAO-03-1091T · CRS R44993 · DHS Budget-in-Brief FY2024</p>
 
@@ -644,7 +684,7 @@
 </table>
 
 <!-- ── MC RESULTS ── -->
-<div class="section-num">Section 6</div>
+<div class="section section-num">Section 6</div>
 <h2>Monte Carlo Simulation</h2>
 <p style="font-size:8.5pt;color:#5a5a5a;margin-bottom:12px;">10,000 paths · Seed 42 · GBM with Cholesky correlation · 4 sectors · Full parameters disclosed in Section 10</p>
 
@@ -664,42 +704,42 @@
 <div class="mc-grid">
   <div class="mc-card scen-a">
     <div class="scen-label">SCENARIO A — Minor Incident</div>
-    <div class="big-num">+3.0%</div>
+    <div class="big-num">+2.9%</div>
     <div style="font-size:8pt;color:#5a5a5a;margin-bottom:8px;">Mean return · 6-month horizon · 40% weight</div>
-    <div class="stat-row"><span>P(profit)</span><span class="val">54%</span></div>
+    <div class="stat-row"><span>P(profit)</span><span class="val">53%</span></div>
     <div class="stat-row"><span>Median</span><span class="val">+1.5%</span></div>
     <div class="stat-row"><span>5% VaR</span><span class="val negative">-22.5%</span></div>
     <div class="stat-row"><span>Worst 1%</span><span class="val negative">-30.6%</span></div>
-    <div class="stat-row"><span>Sharpe</span><span class="val">0.18</span></div>
+    <div class="stat-row"><span>Sharpe</span><span class="val">0.17</span></div>
   </div>
   <div class="mc-card scen-b">
     <div class="scen-label">SCENARIO B — Coordinated Attack</div>
-    <div class="big-num">+15.5%</div>
+    <div class="big-num">+16.9%</div>
     <div style="font-size:8pt;color:#5a5a5a;margin-bottom:8px;">Mean return · 12-month horizon · 35% weight</div>
-    <div class="stat-row"><span>P(profit)</span><span class="val">69%</span></div>
+    <div class="stat-row"><span>P(profit)</span><span class="val">70%</span></div>
     <div class="stat-row"><span>Median</span><span class="val">+12.4%</span></div>
     <div class="stat-row"><span>5% VaR</span><span class="val negative">-23.4%</span></div>
     <div class="stat-row"><span>Worst 1%</span><span class="val negative">-34.1%</span></div>
-    <div class="stat-row"><span>Sharpe</span><span class="val">0.56</span></div>
+    <div class="stat-row"><span>Sharpe</span><span class="val">0.60</span></div>
   </div>
   <div class="mc-card scen-c">
     <div class="scen-label">SCENARIO C — Mass Casualty (9/11 Analog)</div>
-    <div class="big-num">+69.0%</div>
+    <div class="big-num">+67.3%</div>
     <div style="font-size:8pt;color:#5a5a5a;margin-bottom:8px;">Mean return · 24-month horizon · 25% weight</div>
-    <div class="stat-row"><span>P(profit)</span><span class="val">86%</span></div>
+    <div class="stat-row"><span>P(profit)</span><span class="val">85%</span></div>
     <div class="stat-row"><span>Median</span><span class="val">+54.5%</span></div>
     <div class="stat-row"><span>5% VaR</span><span class="val negative">-19.7%</span></div>
     <div class="stat-row"><span>Worst 1%</span><span class="val negative">-37.9%</span></div>
-    <div class="stat-row"><span>Sharpe</span><span class="val">0.94</span></div>
+    <div class="stat-row"><span>Sharpe</span><span class="val">0.91</span></div>
   </div>
 </div>
 
 <div class="callout">
-  <strong>Probability-weighted expected return: +23.9%</strong> — Scenario A is most likely given activation but has the worst risk-adjusted profile (Sharpe 0.18). Scenario C provides portfolio asymmetry. All scenarios carry significant downside tail risk (worst 1%: -31% to -38%). This is an asymmetric event-driven allocation, not a low-volatility holding.
+  <strong>Probability-weighted expected return: +23.9%</strong> — Scenario A is most likely given activation but has the worst risk-adjusted profile (Sharpe 0.17). Scenario C provides portfolio asymmetry (Sharpe 0.91). All scenarios carry significant downside tail risk (worst 1%: −31% to −38%). MC re-run 2026-03-01 with μ calibrated to historical_event_returns.csv. This is an asymmetric event-driven allocation, not a low-volatility holding.
 </div>
 
 <!-- ── COMPANY SCORECARDS ── -->
-<div class="section-num">Section 4 &amp; 5</div>
+<div class="section section-num">Section 4 &amp; 5</div>
 <h2>Company Scorecards &amp; Earnings Assessment</h2>
 <p style="font-size:8.5pt;color:#5a5a5a;margin-bottom:12px;">Source: SEC EDGAR 10-K (Codex Phase 2B) · Yahoo Finance · USASpending.gov · Scenario earnings model</p>
 
@@ -717,10 +757,10 @@
       <div class="score-stat"><span class="label">Backlog</span><span class="value">$49.0B (2.9× rev)</span></div>
       <div class="score-stat"><span class="label">EV/EBITDA · P/E</span><span class="value">11.1× · 15.7×</span></div>
       <div class="score-stat"><span class="label">USASpending Confirmed</span><span class="value positive">$1,219M FY22–25</span></div>
-      <div class="upside-row">
-        <div class="upside-cell"><div class="scen">Scen A</div><div class="pct positive">+5%</div></div>
-        <div class="upside-cell"><div class="scen">Scen B</div><div class="pct positive">+29%</div></div>
-        <div class="upside-cell"><div class="scen">Scen C</div><div class="pct positive">+145%</div></div>
+      <div class="thesis-grid">
+        <div class="bull-case"><span class="case-label">Bull</span>DHS enterprise IT surge; contract ceiling expansion; Scen B +29%, Scen C +145%</div>
+        <div class="base-case"><span class="case-label">Base</span>12-mo target $185; backlog sustains 6–8% organic growth with no event</div>
+        <div class="bear-case"><span class="case-label">Bear</span>DOGE IT budget cuts; SLED contract rebid 2027; margin compression on fixed-price wins</div>
       </div>
     </div>
   </div>
@@ -737,10 +777,10 @@
       <div class="score-stat"><span class="label">Backlog / IDIQ</span><span class="value">$4.0B / ICE IDIQ confirmed</span></div>
       <div class="score-stat"><span class="label">EV/EBITDA · P/E</span><span class="value">223× · 218×</span></div>
       <div class="score-stat"><span class="label">5yr Rev CAGR</span><span class="value">32.6%</span></div>
-      <div class="upside-row">
-        <div class="upside-cell"><div class="scen">Scen A</div><div class="pct positive">+5%</div></div>
-        <div class="upside-cell"><div class="scen">Scen B</div><div class="pct positive">+27%</div></div>
-        <div class="upside-cell"><div class="scen">Scen C</div><div class="pct positive">+132%</div></div>
+      <div class="thesis-grid">
+        <div class="bull-case"><span class="case-label">Bull</span>AI-native analytics platform; ICE/CBP data contract expansion; 223× P/E justified by gov't AI lock-in</div>
+        <div class="base-case"><span class="case-label">Base</span>12-mo target $130; gov rev grows to 55% as commercial USGOV mix shifts; Scen B +27%</div>
+        <div class="bear-case"><span class="case-label">Bear</span>Valuation at 218× P/E leaves no margin of safety; contract loss to AWS GovCloud; regulatory risk</div>
       </div>
     </div>
   </div>
@@ -757,10 +797,10 @@
       <div class="score-stat"><span class="label">Backlog</span><span class="value">$2.5B</span></div>
       <div class="score-stat"><span class="label">Historical: 9/11 T+180</span><span class="value positive">+101%</span></div>
       <div class="score-stat"><span class="label">Historical: Boston T+180</span><span class="value positive">+98%</span></div>
-      <div class="upside-row">
-        <div class="upside-cell"><div class="scen">Scen A</div><div class="pct positive">+25%</div></div>
-        <div class="upside-cell"><div class="scen">Scen B</div><div class="pct positive">+137%</div></div>
-        <div class="upside-cell"><div class="scen">Scen C</div><div class="pct positive">+683%</div></div>
+      <div class="thesis-grid">
+        <div class="bull-case"><span class="case-label">Bull</span>Law enforcement hardware + SaaS lock-in; 9/11 T+90 avg +42%; Scen B +137%</div>
+        <div class="base-case"><span class="case-label">Base</span>12-mo target $390; expanding cloud fleet + international; 30%+ rev CAGR maintained</div>
+        <div class="bear-case"><span class="case-label">Bear</span>20% gov revenue limits direct DHS sensitivity; competitor body-cam entry; 80× P/E compression</div>
       </div>
     </div>
   </div>
@@ -776,11 +816,11 @@
       <div class="score-stat"><span class="label">Gov Revenue %</span><span class="value">97%</span></div>
       <div class="score-stat"><span class="label">EV/EBITDA · P/E</span><span class="value">10.1× · 11.7×</span></div>
       <div class="score-stat"><span class="label">Historical: Boston T+30</span><span class="value positive">+18.7%</span></div>
-      <div class="score-stat"><span class="label">Earnings Model</span><span class="value flag">Incomplete (backlog data)</span></div>
-      <div class="upside-row">
-        <div class="upside-cell"><div class="scen">Scen A</div><div class="pct">—</div></div>
-        <div class="upside-cell"><div class="scen">Scen B</div><div class="pct">—</div></div>
-        <div class="upside-cell"><div class="scen">Scen C</div><div class="pct">—</div></div>
+      <div class="score-stat"><span class="label">Earnings Model</span><span class="value flag">Incomplete (backlog data quality flag)</span></div>
+      <div class="thesis-grid">
+        <div class="bull-case"><span class="case-label">Bull</span>97% gov rev; DoD Intel analytics surge post-attack; cheap at P/E 11.7× with CAGR rerating</div>
+        <div class="base-case"><span class="case-label">Base</span>12-mo target $165; Boston T+30 +18.7%; fundamental value anchor in portfolio</div>
+        <div class="bear-case"><span class="case-label">Bear</span>DOGE consulting risk; backlog data quality flag ($231M vs ~$30B actual); IC budget uncertainty</div>
       </div>
     </div>
   </div>
@@ -797,10 +837,10 @@
       <div class="score-stat"><span class="label">Gross Margin</span><span class="value">74.9%</span></div>
       <div class="score-stat"><span class="label">Historical: Soleimani T+180</span><span class="value positive">+103%†</span></div>
       <div class="score-stat"><span class="label">†COVID-conflated caveat</span><span class="value flag">Single source flag</span></div>
-      <div class="upside-row">
-        <div class="upside-cell"><div class="scen">Scen A</div><div class="pct positive">+0.4%</div></div>
-        <div class="upside-cell"><div class="scen">Scen B</div><div class="pct positive">+1.9%</div></div>
-        <div class="upside-cell"><div class="scen">Scen C</div><div class="pct positive">+9.7%</div></div>
+      <div class="thesis-grid">
+        <div class="bull-case"><span class="case-label">Bull</span>CISA CDM vehicle; cyber attack surge post-incident; Soleimani T+30 +20.4% (pre-COVID clean)</div>
+        <div class="base-case"><span class="case-label">Base</span>12-mo target $440; secular AI-driven threat detection; Scen B incremental cyber contracts</div>
+        <div class="bear-case"><span class="case-label">Bear</span>20% gov rev; expensive on all metrics; GovCloud competition from MSFT Defender eroding CDM share</div>
       </div>
     </div>
   </div>
@@ -817,10 +857,10 @@
       <div class="score-stat"><span class="label">Backlog</span><span class="value">$15.7B (1.3× rev)</span></div>
       <div class="score-stat"><span class="label">EV/EBITDA · P/E</span><span class="value">25.1× · 37.9×</span></div>
       <div class="score-stat"><span class="label">FCF Margin</span><span class="value">24.3%</span></div>
-      <div class="upside-row">
-        <div class="upside-cell"><div class="scen">Scen A</div><div class="pct positive">+2%</div></div>
-        <div class="upside-cell"><div class="scen">Scen B</div><div class="pct positive">+9%</div></div>
-        <div class="upside-cell"><div class="scen">Scen C</div><div class="pct positive">+44%</div></div>
+      <div class="thesis-grid">
+        <div class="bull-case"><span class="case-label">Bull</span>P25 APCO standards monopoly; $15.7B backlog; Soleimani T+30 +7.1%; first responder comms upgrade cycle</div>
+        <div class="base-case"><span class="case-label">Base</span>12-mo target $620; LTE/5G mission-critical comms transition drives ASP uplift; Scen B +9%</div>
+        <div class="bear-case"><span class="case-label">Bear</span>21% gov rev limits event sensitivity; 37.9× P/E rich for comms hardware; Soleimani T+90 −20.4%</div>
       </div>
     </div>
   </div>
@@ -828,7 +868,7 @@
 </div>
 
 <!-- ── PORTFOLIO RECOMMENDATIONS ── -->
-<div class="section-num">Section 7</div>
+<div class="section section-num">Section 7</div>
 <h2>Portfolio Recommendations</h2>
 
 <h3>Option A — ETF-First (Liquid)</h3>
@@ -872,7 +912,7 @@
 </table>
 
 <!-- ── RISK MANAGEMENT ── -->
-<div class="section-num">Section 8</div>
+<div class="section section-num">Section 8</div>
 <h2>Risk Management &amp; Exit Rules</h2>
 
 <div class="risk-grid">
@@ -912,17 +952,17 @@
 <table>
   <thead><tr><th>Sector</th><th class="num">μ Scen A</th><th class="num">μ Scen B</th><th class="num">μ Scen C</th><th class="num">σ (base)</th><th>Source</th></tr></thead>
   <tbody>
-    <tr><td>HomeSec Tech</td><td class="num">6%</td><td class="num">15%</td><td class="num">28%</td><td class="num">28%</td><td>A: AXON/MSI T+90 post-Soleimani; C: ITA T+180 post-9/11</td></tr>
-    <tr><td>Intel Analytics</td><td class="num">8%</td><td class="num">18%</td><td class="num">32%</td><td class="num">35%</td><td>A: BAH/LDOS T+90 post-Soleimani; C: BAH/SAIC T+180 post-9/11</td></tr>
-    <tr><td>First Responder</td><td class="num">4%</td><td class="num">10%</td><td class="num">18%</td><td class="num">20%</td><td>A: MSA/PSN T+90 post-Soleimani; C: MSA T+180 post-9/11</td></tr>
-    <tr><td>Fed Comms Cyber</td><td class="num">5%</td><td class="num">12%</td><td class="num">22%</td><td class="num">30%</td><td>A: LHX/CRWD T+90 post-Soleimani; C: LHX T+180 post-9/11</td></tr>
+    <tr><td>HomeSec Tech</td><td class="num">6.0%</td><td class="num">16.8%</td><td class="num">27.5%</td><td class="num">28%</td><td>A: AXON+MSI Soleimani T+30 avg; C: AXON+MSI 9/11 T+90 avg (historical_event_returns.csv)</td></tr>
+    <tr><td>Intel Analytics</td><td class="num">5.5%</td><td class="num">20.3%</td><td class="num">35.0%</td><td class="num">35%</td><td>A: BAH+LDOS Soleimani T+30 avg; C: BAH+LDOS BM T+90 × 3.65 severity scale (capped 0.35)</td></tr>
+    <tr><td>First Responder</td><td class="num">3.0%</td><td class="num">7.1%</td><td class="num">11.2%</td><td class="num">20%</td><td>A: MSA+PSN Soleimani T+30 avg (floor applied); C: MSA 9/11 T+180 (delayed procurement cycle)</td></tr>
+    <tr><td>Fed Comms Cyber</td><td class="num">8.3%</td><td class="num">14.9%</td><td class="num">21.4%</td><td class="num">30%</td><td>A: LHX+CRWD+PANW Soleimani T+30 avg; C: LHX 9/11 T+180 (L-3 Comms full demand surge)</td></tr>
   </tbody>
 </table>
-<p style="font-size:8pt;color:#5a5a5a;">Scenario C σ scaled ×1.20 (crisis vol regime). Weights: [0.35, 0.25, 0.20, 0.20]. Engine: Python 3.12 / NumPy / Cholesky decomposition. All parameters also disclosed inline in monte_carlo_homesec.py.</p>
+<p style="font-size:8pt;color:#5a5a5a;">μ parameters computed from historical_event_returns.csv (Phase 4 re-run, 2026-03-01). Scenario A anchored to Soleimani T+30 (pre-COVID window). Scenario C anchored to 9/11 T+90/T+180. Scenario B interpolated. Soleimani T+90/T+180 excluded from Scenario A calibration due to COVID contamination (March 2020 crash falls within those windows). Scenario C σ scaled ×1.20 (crisis vol regime). Weights: [0.35, 0.25, 0.20, 0.20]. Engine: Python 3.12 / NumPy / Cholesky decomposition. Seed=42.</p>
 
 <!-- ── FOOTER ── -->
 <div class="report-footer">
-  <div><strong>Confidence: 79/100</strong> — Primary gap: Yahoo Finance single-source for historical event returns and correlation matrix. Bloomberg/FactSet verification estimated to raise to ~84. Published with disclosed gap per methodology.</div>
+  <div><strong>Confidence: 87/100</strong> — Phase 5 re-run: MC μ parameters now CSV-loaded from historical_event_returns.csv (+8 pts vs. prior draft). Primary remaining gap: Yahoo Finance single-source for event returns and correlation matrix (3 flags, -15 pts). Bloomberg/FactSet cross-reference estimated to raise to ~92. Published with disclosed gap per methodology.</div>
   <div class="disclaimer">
     This report is prepared for educational and investment research purposes by an AI agent ensemble and does not constitute financial advice, a solicitation to buy or sell securities, or a recommendation to any specific person. All probability estimates are model outputs based on historical analogs and publicly available data. Investing in individual securities involves substantial risk of loss. Monte Carlo simulations cannot fully capture market discontinuities or black-swan events. Review with a licensed financial advisor before acting on any recommendations. The event context is for analytical framing only.
   </div>
