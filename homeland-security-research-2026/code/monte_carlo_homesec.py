@@ -17,6 +17,7 @@ np.random.seed(42)  # Reproducible
 ROOT = Path(__file__).parent.parent
 REPORTS_DIR = ROOT / "reports"
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+DATA_DIR = ROOT / "data"
 
 # ---------------------------------------------------------------------------
 # Scenario Framework
@@ -61,33 +62,127 @@ SECTOR_LABELS = {
 WEIGHTS = np.array([0.35, 0.25, 0.20, 0.20])  # Must sum to 1.0
 
 # ---------------------------------------------------------------------------
-# Return Parameters (μ annualized)
-# Source calibration:
-#   Scenario A anchor: avg HomeSec sector return T+90 post-Soleimani (Jan 2020, Yahoo Finance)
-#   Scenario C anchor: avg HomeSec sector return T+180 post-9/11 (Sep 2001–Mar 2002)
-#   Scenario B: linear interpolation between A and C
+# Return Parameters (mu annualized) — loaded from historical_event_returns.csv
+# Calibration rules:
+#   Scenario A: Soleimani T+30 sector averages (minor geopolitical event; pre-COVID window)
+#               NOTE: Soleimani T+90 / T+180 are COVID-contaminated (March 2020 crash falls
+#               within those windows); T+30 (ending ~Feb 3 2020) is clean.
+#   Scenario C: 9/11 T+90 for HomeSec_Tech (AXON+MSI both public post-9/11)
+#               9/11 T+180 for FirstResponder/Fed_Comms_Cyber (delayed procurement cycle)
+#               BM 2013 T+90 * empirical severity scale for Intel_Analytics (BAH/LDOS
+#               were not publicly traded in Sep 2001)
+#   Scenario B: arithmetic mean of A and C, bounded [0.05, 0.25]
+#   Floors/caps: A=[0.03, 0.15], B=[0.05, 0.25], C=[0.05, 0.35]
+# Source file: data/company_fundamentals/historical_event_returns.csv
 # ---------------------------------------------------------------------------
 
-MU = {
-    "A": {
-        "HomeSec_Tech":    0.06,  # Source: avg AXON/MSI T+90 post-Soleimani; Bloomberg
-        "Intel_Analytics": 0.08,  # Source: BAH/LDOS avg T+90 post-Soleimani; Bloomberg
-        "FirstResponder":  0.04,  # Source: MSA/PSN avg T+90 post-Soleimani; Bloomberg
-        "Fed_Comms_Cyber": 0.05,  # Source: LHX/CRWD avg T+90 post-Soleimani; Bloomberg
-    },
-    "B": {
-        "HomeSec_Tech":    0.15,  # Interpolated A→C; corroborated by post-Boston Marathon (2013)
-        "Intel_Analytics": 0.18,  # Interpolated; PLTR-heavy given gov't analytics surge
-        "FirstResponder":  0.10,  # Interpolated; PSN infrastructure response
-        "Fed_Comms_Cyber": 0.12,  # Interpolated; cyber response surge
-    },
-    "C": {
-        "HomeSec_Tech":    0.28,  # Source: ITA ETF T+180 post-9/11 (Sep'01–Mar'02); Yahoo Finance
-        "Intel_Analytics": 0.32,  # Source: BAH/SAIC T+180 post-9/11; Bloomberg
-        "FirstResponder":  0.18,  # Source: MSA T+180 post-9/11; Bloomberg
-        "Fed_Comms_Cyber": 0.22,  # Source: LHX (then L-3 Comms) T+180 post-9/11; Bloomberg
-    },
-}
+def load_historical_mu(csv_path: Path) -> dict:
+    """
+    Derive annualized mu parameters from historical_event_returns.csv.
+
+    Returns dict: {"A": {sector: mu}, "B": {...}, "C": {...}}
+    Falls back to conservative defaults if CSV is missing or malformed.
+    """
+    FALLBACK = {
+        "A": {"HomeSec_Tech": 0.060, "Intel_Analytics": 0.055, "FirstResponder": 0.030, "Fed_Comms_Cyber": 0.060},
+        "B": {"HomeSec_Tech": 0.168, "Intel_Analytics": 0.203, "FirstResponder": 0.071, "Fed_Comms_Cyber": 0.149},
+        "C": {"HomeSec_Tech": 0.275, "Intel_Analytics": 0.350, "FirstResponder": 0.112, "Fed_Comms_Cyber": 0.214},
+    }
+    if not csv_path.exists():
+        print(f"  [WARN] historical_event_returns.csv not found at {csv_path}; using fallback defaults")
+        return FALLBACK
+
+    try:
+        df = pd.read_csv(csv_path)
+    except Exception as exc:
+        print(f"  [WARN] Could not read CSV ({exc}); using fallback defaults")
+        return FALLBACK
+
+    def ticker_val(ticker, event, window):
+        row = df[(df["ticker"] == ticker) & (df["event"] == event)]
+        if row.empty:
+            return None
+        v = row[window].values[0]
+        return float(v) / 100.0 if pd.notna(v) else None
+
+    def sector_mean(tickers, event, window):
+        vals = [ticker_val(t, event, window) for t in tickers]
+        vals = [v for v in vals if v is not None]
+        return float(np.mean(vals)) if vals else None
+
+    def bounded(v, lo, hi, fallback):
+        return max(lo, min(float(v), hi)) if v is not None else fallback
+
+    # -- Scenario A: Soleimani T+30 (clean pre-COVID window) --
+    # HomeSec_Tech: AXON T+30=+4.95%, MSI T+30=+7.09% -> avg +6.02%
+    mu_a_ht = sector_mean(["AXON", "MSI"], "post_soleimani_2020", "window_30d")
+    # Intel_Analytics: BAH T+30=+8.09%, LDOS T+30=+3.00% -> avg +5.54%
+    mu_a_ia = sector_mean(["BAH", "LDOS"], "post_soleimani_2020", "window_30d")
+    # FirstResponder: MSA T+30=+7.05%, PSN T+30=-5.08% -> avg +0.99% (floor applied)
+    mu_a_fr = sector_mean(["MSA", "PSN"], "post_soleimani_2020", "window_30d")
+    # Fed_Comms_Cyber: LHX T+30=+4.95%, CRWD T+30=+20.36% (Iran cyber fears), PANW T+30=-0.36%
+    mu_a_fc = sector_mean(["LHX", "CRWD", "PANW"], "post_soleimani_2020", "window_30d")
+
+    # -- Scenario C: 9/11 anchors (different windows by sector) --
+    # HomeSec_Tech: AXON T+90=+42.38%, MSI T+90=+12.65% -> avg +27.52%
+    mu_c_ht = sector_mean(["AXON", "MSI"], "9_11_2001", "window_90d")
+    # FirstResponder: MSA T+180=+11.19% (T+90=+3.09% understates delayed procurement surge)
+    mu_c_fr = sector_mean(["MSA"], "9_11_2001", "window_180d")
+    # Fed_Comms_Cyber: LHX T+180=+21.43% (L-3 Comms full demand surge; CRWD/PANW pre-IPO in 2001)
+    mu_c_fc = sector_mean(["LHX"], "9_11_2001", "window_180d")
+    # Intel_Analytics: BAH/LDOS pre-IPO in 2001; proxy via Boston Marathon T+90 x severity scale
+    ht_911  = sector_mean(["AXON", "MSI"], "9_11_2001", "window_90d")
+    ht_bm   = sector_mean(["AXON", "MSI"], "boston_marathon_2013", "window_90d")
+    sev_scale = (ht_911 / ht_bm) if (ht_bm and abs(ht_bm) > 0.01) else 3.0
+    ia_bm   = sector_mean(["BAH", "LDOS"], "boston_marathon_2013", "window_90d")
+    mu_c_ia_raw = (ia_bm * sev_scale) if ia_bm is not None else None
+
+    # Apply floors / caps
+    a_ht = bounded(mu_a_ht, 0.030, 0.150, FALLBACK["A"]["HomeSec_Tech"])
+    a_ia = bounded(mu_a_ia, 0.030, 0.150, FALLBACK["A"]["Intel_Analytics"])
+    a_fr = bounded(mu_a_fr, 0.030, 0.150, FALLBACK["A"]["FirstResponder"])
+    a_fc = bounded(mu_a_fc, 0.030, 0.150, FALLBACK["A"]["Fed_Comms_Cyber"])
+
+    c_ht = bounded(mu_c_ht,      0.050, 0.350, FALLBACK["C"]["HomeSec_Tech"])
+    c_ia = bounded(mu_c_ia_raw,  0.050, 0.350, FALLBACK["C"]["Intel_Analytics"])
+    c_fr = bounded(mu_c_fr,      0.050, 0.350, FALLBACK["C"]["FirstResponder"])
+    c_fc = bounded(mu_c_fc,      0.050, 0.350, FALLBACK["C"]["Fed_Comms_Cyber"])
+
+    b_ht = bounded((a_ht + c_ht) / 2, 0.050, 0.250, FALLBACK["B"]["HomeSec_Tech"])
+    b_ia = bounded((a_ia + c_ia) / 2, 0.050, 0.250, FALLBACK["B"]["Intel_Analytics"])
+    b_fr = bounded((a_fr + c_fr) / 2, 0.050, 0.250, FALLBACK["B"]["FirstResponder"])
+    b_fc = bounded((a_fc + c_fc) / 2, 0.050, 0.250, FALLBACK["B"]["Fed_Comms_Cyber"])
+
+    mu_out = {
+        "A": {
+            "HomeSec_Tech":    round(a_ht, 4),  # source: AXON+MSI Soleimani T+30 avg
+            "Intel_Analytics": round(a_ia, 4),  # source: BAH+LDOS Soleimani T+30 avg
+            "FirstResponder":  round(a_fr, 4),  # source: MSA+PSN Soleimani T+30 avg (floor applied)
+            "Fed_Comms_Cyber": round(a_fc, 4),  # source: LHX+CRWD+PANW Soleimani T+30 avg
+        },
+        "B": {
+            "HomeSec_Tech":    round(b_ht, 4),  # source: interpolated A+C mean
+            "Intel_Analytics": round(b_ia, 4),  # source: interpolated A+C mean
+            "FirstResponder":  round(b_fr, 4),  # source: interpolated A+C mean
+            "Fed_Comms_Cyber": round(b_fc, 4),  # source: interpolated A+C mean
+        },
+        "C": {
+            "HomeSec_Tech":    round(c_ht, 4),  # source: AXON+MSI 9/11 T+90 avg
+            "Intel_Analytics": round(c_ia, 4),  # source: BAH+LDOS BM T+90 x severity_scale (capped at 0.35)
+            "FirstResponder":  round(c_fr, 4),  # source: MSA 9/11 T+180 (delayed procurement cycle)
+            "Fed_Comms_Cyber": round(c_fc, 4),  # source: LHX 9/11 T+180 (L-3 Comms full demand surge)
+        },
+    }
+
+    print(f"\n[MC] mu parameters calibrated from historical_event_returns.csv")
+    print(f"     Empirical 9/11-vs-BM severity scale: {sev_scale:.2f}x")
+    for scen in ["A", "B", "C"]:
+        vals = " | ".join(f"{s}={mu_out[scen][s]:.4f}" for s in SECTORS)
+        print(f"     Scenario {scen}: {vals}")
+    return mu_out
+
+
+MU = load_historical_mu(DATA_DIR / "company_fundamentals" / "historical_event_returns.csv")
 
 # ---------------------------------------------------------------------------
 # Volatility (σ annualized)
