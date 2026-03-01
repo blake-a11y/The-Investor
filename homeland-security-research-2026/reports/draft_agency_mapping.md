@@ -24,18 +24,19 @@
 ## 2. DHS Budgetary Resources FY2022–2025
 
 ### Annual Totals
-- FY2022: $11409.81B
-- FY2023: $11889.86B
-- FY2024: $12248.55B
-- FY2025: $13263.7B
+- FY2022: $133.19B
+- FY2023: $133.72B
+- FY2024: $140.63B
+- FY2025: $171.2B
 
 ### Year-over-Year Growth
-- FY2022_to_FY2023: +4.2%
-- FY2023_to_FY2024: +3.0%
-- FY2024_to_FY2025: +8.3%
+- FY2022_to_FY2023: +0.4%
+- FY2023_to_FY2024: +5.2%
+- FY2024_to_FY2025: +21.7%
 
-**Context:** DHS budget has grown from ~$40.2B (FY2004, year 1 post-9/11) to ~$73B (FY2022).
-Post-9/11 ramp rate: $0 → $40.2B in 12 months (DHS established Nov 2002, operational Mar 2003).
+**Context:** DHS total obligations have grown from ~$133B (FY2022) to ~$171B (FY2025, partial year).
+Historical anchor: DHS established Nov 2002; first full-year obligations ~$36B (FY2004). Post-9/11 ramp: $0 → $40B in 24 months.
+*Source: USASpending.gov agency_total_obligated field, agency code 070.*
 
 ---
 
@@ -45,7 +46,28 @@ Post-9/11 ramp rate: $0 → $40.2B in 12 months (DHS established Nov 2002, opera
 **Tickers under coverage:** AXON, MSI, PLTR, LDOS, BAH, SAIC, MSA, PSN, LHX, CRWD, PANW
 
 ### USASpending API Results (FY2022–2025, Top Recipients)
-_API data unavailable — see raw JSON fallback_
+| Recipient | Agency | Total Obligation |
+|-----------|--------|-----------------|
+| BCCG A JOINT VENTURE | Department of Homeland Security | $3414.2M |
+| DEPLOYED RESOURCES LLC | Department of Homeland Security | $2973.1M |
+| THE GEO GROUP, INC. | Department of Homeland Security | $1526.1M |
+| PARAGON SYSTEMS INC | Department of Homeland Security | $1524.3M |
+| FISHER SAND & GRAVEL CO | Department of Homeland Security | $1308.4M |
+| METROPOLITAN SECURITY SERVICES, INC. | Department of Justice | $1255.1M |
+| CSI AVIATION, INC | Department of Homeland Security | $1154.4M |
+| BRASFIELD & GORRIE LLC | Department of Justice | $1112.0M |
+| BARNARD SPENCER JOINT VENTURE | Department of Homeland Security | $1072.5M |
+| GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC. | Department of Homeland Security | $1059.9M |
+| AUSTAL USA, LLC | Department of Homeland Security | $1016.9M |
+| DELOITTE CONSULTING LLP | Department of Homeland Security | $989.2M |
+| MCKESSON CORPORATION | Department of Justice | $619.6M |
+| THE GEO GROUP, INC. | Department of Justice | $510.7M |
+| CGI FEDERAL INC. | Department of Justice | $480.7M |
+| CLARK CONSTRUCTION GROUP LLC | Department of Justice | $466.9M |
+| NAPHCARE INC | Department of Justice | $462.2M |
+| THUNDERCAT TECHNOLOGY, LLC | Department of Justice | $425.5M |
+| MINBURN TECHNOLOGY GROUP, LLC | Department of Justice | $391.0M |
+| FORFEITURE SUPPORT ASSOCIATES LLC | Department of Justice | $386.9M |
 
 ### Key Relationships (Research-Sourced)
 | Ticker | Company | Primary DHS Relationship | Gov't Revenue % |
@@ -126,9 +148,9 @@ _API data unavailable — see raw JSON fallback_
 
 | Scenario | Multiplier | Baseline | Projected Total | Additional Awards | Source |
 |----------|-----------|----------|----------------|-------------------|--------|
-| A_minor | 1.15× | $13263.7B | $15253.25B | +$1989.55B | CRS post-Boston Marathon FY2013 supplemental analysis |
-| B_coordinated | 1.45× | $13263.7B | $19232.37B | +$5968.66B | GAO analysis; Soleimani supplemental requests FY2020 |
-| C_mass_casualty | 2.1× | $13263.7B | $27853.77B | +$14590.07B | GAO-03-1091T; DHS appropriations surge post-9/11 ($0→$40.2B) |
+| A_minor | 1.15× | $171.2B | $196.88B | +$25.68B | CRS post-Boston Marathon FY2013 supplemental analysis |
+| B_coordinated | 1.45× | $171.2B | $248.24B | +$77.04B | GAO analysis; Soleimani supplemental requests FY2020 |
+| C_mass_casualty | 2.1× | $171.2B | $359.52B | +$188.32B | GAO-03-1091T; DHS appropriations surge post-9/11 ($0→$40.2B) |
 
 ### Per-Agency Allocation of Surge (Estimated)
 | Agency | % of Surge Allocation | Primary Beneficiary Tickers |

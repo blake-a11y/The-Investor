@@ -70,11 +70,11 @@ def get_top_contractors():
                     {"start_date": "2024-10-01", "end_date": "2025-09-30"},
                 ],
             },
-            "category": "recipient",
             "limit": 50,
             "page": 1,
         }
-        url = f"{BASE_URL}/search/spending_by_category/"
+        # Fixed: endpoint moved to /recipient/ sub-path; "category" param removed (now in URL)
+        url = f"{BASE_URL}/search/spending_by_category/recipient/"
         try:
             r = requests.post(url, json=payload, headers=HEADERS, timeout=60)
             r.raise_for_status()
@@ -195,13 +195,16 @@ SCENARIO_MULTIPLIERS = {
 
 
 def extract_total_budget(fy_data: dict, fy: int) -> float | None:
-    """Extract total budgetary resources from agency endpoint response."""
-    # Try nested agency_data_by_year structure
+    """Extract DHS-specific total obligations from agency endpoint response.
+
+    Uses agency_total_obligated (actual DHS contract obligations in dollars).
+    Note: total_budgetary_resources is the entire US federal budget — not DHS-specific.
+    """
     for year_entry in fy_data.get("agency_data_by_year", []):
         if year_entry.get("fiscal_year") == fy:
-            return year_entry.get("total_budgetary_resources")
+            return year_entry.get("agency_total_obligated")
     # Try flat structure
-    return fy_data.get("total_budgetary_resources")
+    return fy_data.get("agency_total_obligated")
 
 
 def calculate_yoy_growth(obligations_data: dict) -> dict:
@@ -400,8 +403,9 @@ def generate_agency_mapping_report(
 ### Year-over-Year Growth
 {chr(10).join(yoy_lines) if yoy_lines else "_Insufficient data for YoY calculation_"}
 
-**Context:** DHS budget has grown from ~$40.2B (FY2004, year 1 post-9/11) to ~$73B (FY2022).
-Post-9/11 ramp rate: $0 → $40.2B in 12 months (DHS established Nov 2002, operational Mar 2003).
+**Context:** DHS total obligations have grown from ~$133B (FY2022) to ~$171B (FY2025, partial year).
+Historical anchor: DHS established Nov 2002; first full-year obligations ~$36B (FY2004). Post-9/11 ramp: $0 → $40B in 24 months.
+*Source: USASpending.gov agency_total_obligated field, agency code 070.*
 
 ---
 
