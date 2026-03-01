@@ -1,4 +1,6 @@
 date,sector,ticker,close,volume
-2026-02-28,Technology,SPY,0.00,0
-2026-02-28,Energy,XLE,0.00,0
-2026-02-28,Healthcare,XLV,0.00,0
+2026-02-27,Defense,ITA,243.72,0
+2026-02-27,Defense,XAR,282.94,0
+2026-02-27,Energy,XLE,55.92,0
+2026-02-27,Gold,GLD,483.75,0
+2026-02-27,Utilities,XLU,47.73,0

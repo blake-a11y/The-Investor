@@ -1,0 +1,5 @@
+cd cUsersmblinOneDriveDesktopThe Investorgeopolitical-investment-research-2026
+
+.coderun_mc.ps1                                    # Run Monte Carlo
+.codecommit_audit_round.ps1 -Message Audit round 1  # Commit + push
+.codeexport_to_pdf.ps1                             # Export report to PDF

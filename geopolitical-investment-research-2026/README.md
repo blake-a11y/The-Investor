@@ -1,34 +1,24 @@
 # Geopolitical Investment Research 2026
 
-Research workflow combining Grok analysis, Monte Carlo simulations, and Claude audit to produce a validated investment report.
+Peer-reviewed, multi-AI audited, Monte Carlo–validated research report for $100k allocation (Defense/Energy/Gold/Utilities) based on Feb 28 2026 U.S.–Israel strikes on Iran.
 
-**→ Full diagram:** [REPO_DIAGRAM.md](REPO_DIAGRAM.md) | **→ Cursor orchestration:** [CURSOR_ORCHESTRATION.md](CURSOR_ORCHESTRATION.md)
+**→ Diagram:** [REPO_DIAGRAM.md](REPO_DIAGRAM.md) | **→ Orchestration:** [CURSOR_ORCHESTRATION.md](CURSOR_ORCHESTRATION.md)
 
-## Structure
+## Project Status: READY
+**Date:** February 28, 2026
 
-```
-geopolitical-investment-research-2026/
-├── prompts/              # Instructions for Grok and Claude
-├── data/                  # Input data
-├── code/                  # Simulation and analysis
-│   ├── monte_carlo_simulator.py
-│   ├── run_simulations.sh    # Unix
-│   ├── run_mc.ps1            # Windows one-click
-│   ├── commit_audit_round.ps1
-│   └── export_to_pdf.ps1
-├── reports/               # Outputs (incl. final_validated_report.md)
-├── audits/
-├── REPO_DIAGRAM.md        # Workflow diagram
-├── CURSOR_ORCHESTRATION.md # Step-by-step Cursor guide
-└── requirements.txt
-```
+This repository contains a complete multi-AI peer-reviewed research framework for geopolitical event-driven investment analysis, specifically designed to analyze and allocate $100k across beneficiary sectors following the February 28, 2026 U.S.-Israel strikes on Iran. The report includes an explicit **Investor Profile & Suitability Assessment** section demonstrating investor-type assessment methodology for a Wealth-Tech Operations Leader Persona.
+
+## Cursor Bot Setup
+
+For detailed instructions on setting up Claude, Gemini, and ChatGPT research bots within Cursor to run parallel audits, see [CURSOR_ORCHESTRATION.md](CURSOR_ORCHESTRATION.md#cursor-bot-setup-instructions).
 
 ## Workflow
 
-1. **Grok**: Run `grok_prompt_v1.md` with sector data → `reports/draft_grok_v1.md`
-2. **Monte Carlo**: Run simulations → use outputs to inform/validate draft
-3. **Claude**: Run `claude_audit_prompt.md` on draft → `reports/audit_claude.md`
-4. **Final**: Merge draft + audit corrections → `reports/final_validated_report.md`
+1. **Day 1:** Paste `prompts/master_instructions.md` to Grok → `reports/draft_grok_v1.md`
+2. **Day 1–2:** Parallel audits (Claude, Gemini, ChatGPT) → `reports/audit_*.md`
+3. **Day 2:** Reconcile in Grok → `reports/final_validated_report.md`
+4. Run MC locally (`.\code\run_mc.ps1`), attach output, export to PDF
 
 ## Setup
 
@@ -36,34 +26,41 @@ geopolitical-investment-research-2026/
 pip install -r requirements.txt
 ```
 
-## Run Monte Carlo Simulations
+## Run Monte Carlo
 
-**Unix / WSL / Git Bash:**
-```bash
-cd code && bash run_simulations.sh
-```
+**Windows:** `.\code\run_mc.ps1`  
+**Unix:** `cd code && bash run_simulations.sh`
 
-**Windows one-click:**
-```powershell
-.\code\run_mc.ps1
-```
-
-**Manual:**
-```powershell
-cd geopolitical-investment-research-2026
-python code\monte_carlo_simulator.py --data data\sector_historical_data.csv --days 126 --paths 10000 --output reports
-```
+Output: `reports/mc_summary.csv`, `mc_portfolio_histograms.png`, per-scenario histograms (`mc_histogram_*.png`), `mc_allocation_pie.png`
 
 ## Export to PDF
 
-```powershell
-.\code\export_to_pdf.ps1   # Requires Pandoc
-```
-Or: Open `reports/final_validated_report.md` → `Ctrl+Shift+V` preview → `Ctrl+P` Save as PDF.
+`.\code\export_to_pdf.ps1` (Pandoc). **Zero install:** Open report → Ctrl+K → "Markdown: Open Preview" → Ctrl+P → Save as PDF
+
+## Cursor Bot Setup Cheat Sheet
+
+### Prerequisites
+- Cursor Pro (for Claude/GPT/Gemini access)
+- Workspace: `geopolitical-investment-research-2026`
+- `@codebase` available in Composer
+
+### Quick Bot Setup
+
+| Bot | Model Selection | Prompt File | Output File |
+|-----|----------------|-------------|-------------|
+| **Claude** | Opus 4.5/4 | `prompts/claude_audit_prompt.md` | `reports/audit_claude.md` |
+| **ChatGPT** | GPT-4o/o1 | `prompts/chatgpt_audit_prompt.md` | `reports/audit_chatgpt.md` |
+| **Gemini** | Gemini | `prompts/gemini_audit_prompt.md` | `reports/audit_gemini.md` |
+
+### Steps for Each Bot
+1. New Composer tab (Cmd+I/Ctrl+I)
+2. Select model from dropdown
+3. Type `@codebase`
+4. Paste prompt file contents
+5. Attach `reports/draft_grok_v1.md`
+6. Run audit → Save to output file
 
 ## Data
 
-- `sector_historical_data.csv`: Historical OHLCV by sector
-- `latest_prices_feb28_2026.csv`: Latest prices for cross-checking
-
-Replace placeholder rows with your actual data before running analyses.
+- `data/sector_historical_data.csv` — Historical OHLCV
+- `data/latest_prices_feb28_2026.csv` — Latest ETF prices (ITA, XAR, XLE, GLD, XLU as of Feb 27 2026 close)

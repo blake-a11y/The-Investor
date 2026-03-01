@@ -13,8 +13,10 @@ if (-not (Test-Path $ReportPath)) {
 
 $pandoc = Get-Command pandoc -ErrorAction SilentlyContinue
 if (-not $pandoc) {
-    Write-Host "Pandoc not found. Install from https://pandoc.org/installing.html" -ForegroundColor Red
-    Write-Host "Alternative: Open reports/final_validated_report.md in Cursor, Ctrl+Shift+V for preview, Ctrl+P to Save as PDF" -ForegroundColor Yellow
+    Write-Host "Pandoc not installed. Use Cursor instead (zero extra installs):" -ForegroundColor Yellow
+    Write-Host "  1. Open reports/final_validated_report.md" -ForegroundColor Cyan
+    Write-Host "  2. Ctrl+K (or Cmd+K) -> type 'Markdown: Open Preview'" -ForegroundColor Cyan
+    Write-Host "  3. In preview: Ctrl+P -> Print -> Save as PDF" -ForegroundColor Cyan
     exit 1
 }
 
